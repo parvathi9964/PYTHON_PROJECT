@@ -1,0 +1,1001 @@
+order_id,order_date,customer_id,gender,age,city,product_category,quantity,price,payment_mode,discount,total_amount
+1,2023-01-01,1102,Male,27,Delhi,Home,2,1144,Credit Card,20,1830.4
+2,2023-01-02,1435,Male,33,Hyderabad,Beauty,3,1315,Cash,5,3747.75
+3,2023-01-03,1860,Male,24,Chennai,Clothing,5,1684,Cash,15,7157.0
+4,2023-01-04,1270,Female,34,Hyderabad,Electronics,1,1697,Cash,5,1612.1499999999999
+5,2023-01-05,1106,Male,40,Chennai,Clothing,2,853,UPI,0,1706.0
+6,2023-01-06,1071,Female,43,Hyderabad,Home,5,2650,Credit Card,15,11262.5
+7,2023-01-07,1700,Male,38,Chennai,Sports,5,4816,Credit Card,10,21672.0
+8,2023-01-08,1020,Female,39,Mumbai,Sports,1,1569,UPI,20,1255.2
+9,2023-01-09,1614,Female,24,Chennai,Beauty,5,1560,UPI,5,7410.0
+10,2023-01-10,1121,Male,31,Chennai,Sports,5,484,UPI,0,2420.0
+11,2023-01-11,1466,Male,32,Bangalore,Electronics,5,4863,Credit Card,10,21883.5
+12,2023-01-12,1214,Male,24,Chennai,Sports,2,2710,Credit Card,20,4336.0
+13,2023-01-13,1330,Male,26,Bangalore,Beauty,1,4731,Cash,10,4257.900000000001
+14,2023-01-14,1458,Female,25,Delhi,Home,5,2509,Cash,20,10036.0
+15,2023-01-15,1087,Male,40,Bangalore,Home,5,3972,Credit Card,15,16881.0
+16,2023-01-16,1372,Male,46,Mumbai,Sports,2,4983,Cash,10,8969.4
+17,2023-01-17,1099,Female,35,Bangalore,Clothing,1,2181,UPI,10,1962.9
+18,2023-01-18,1871,Male,48,Delhi,Home,3,4596,Debit Card,10,12409.2
+19,2023-01-19,1663,Male,47,Mumbai,Sports,2,821,Cash,15,1395.7
+20,2023-01-20,1130,Male,56,Hyderabad,Beauty,1,2187,Credit Card,0,2187.0
+21,2023-01-21,1661,Male,52,Hyderabad,Sports,5,2852,Cash,20,11408.0
+22,2023-01-22,1308,Male,35,Bangalore,Home,1,4109,Cash,10,3698.1
+23,2023-01-23,1769,Female,59,Bangalore,Beauty,1,4455,Cash,15,3786.75
+24,2023-01-24,1343,Male,56,Delhi,Sports,1,4973,Debit Card,0,4973.0
+25,2023-01-25,1491,Male,34,Delhi,Electronics,3,4716,UPI,20,11318.400000000001
+26,2023-01-26,1413,Male,31,Chennai,Beauty,1,3779,Credit Card,15,3212.15
+27,2023-01-27,1805,Male,48,Delhi,Electronics,3,1709,Debit Card,20,4101.6
+28,2023-01-28,1385,Male,41,Chennai,Clothing,5,1994,Credit Card,10,8973.0
+29,2023-01-29,1191,Female,52,Mumbai,Beauty,3,4964,Credit Card,0,14892.0
+30,2023-01-30,1955,Male,61,Bangalore,Electronics,5,826,Credit Card,15,3510.5
+31,2023-01-31,1276,Female,62,Mumbai,Home,5,2960,Debit Card,0,14800.0
+32,2023-02-01,1160,Female,51,Delhi,Home,3,2472,UPI,10,6674.400000000001
+33,2023-02-02,1459,Male,20,Mumbai,Clothing,2,579,Credit Card,0,1158.0
+34,2023-02-03,1313,Male,54,Mumbai,Beauty,4,3264,UPI,0,13056.0
+35,2023-02-04,1021,Male,60,Mumbai,Beauty,1,4277,UPI,5,4063.1499999999996
+36,2023-02-05,1252,Male,57,Delhi,Beauty,4,2969,Cash,0,11876.0
+37,2023-02-06,1747,Female,43,Mumbai,Clothing,1,3193,Debit Card,20,2554.4
+38,2023-02-07,1856,Male,40,Chennai,Beauty,1,2051,Debit Card,15,1743.35
+39,2023-02-08,1560,Male,61,Delhi,Home,5,4281,Cash,5,20334.75
+40,2023-02-09,1474,Male,56,Mumbai,Electronics,1,2661,Cash,15,2261.85
+41,2023-02-10,1058,Male,32,Delhi,Home,1,4727,UPI,15,4017.95
+42,2023-02-11,1510,Male,21,Hyderabad,Home,3,4431,Credit Card,10,11963.7
+43,2023-02-12,1681,Male,46,Chennai,Electronics,4,2008,Debit Card,10,7228.8
+44,2023-02-13,1475,Female,39,Mumbai,Home,3,2986,Credit Card,5,8510.1
+45,2023-02-14,1699,Female,42,Hyderabad,Clothing,1,3195,Credit Card,10,2875.5
+46,2023-02-15,1975,Male,30,Hyderabad,Electronics,5,4835,Cash,10,21757.5
+47,2023-02-16,1782,Male,35,Delhi,Home,3,3076,Credit Card,10,8305.2
+48,2023-02-17,1189,Male,50,Hyderabad,Sports,3,1419,UPI,15,3618.45
+49,2023-02-18,1957,Female,33,Chennai,Home,2,3288,Cash,5,6247.2
+50,2023-02-19,1686,Male,62,Chennai,Clothing,1,4559,Credit Card,15,3875.15
+51,2023-02-20,1957,Female,59,Bangalore,Beauty,5,4543,Cash,20,18172.0
+52,2023-02-21,1562,Male,61,Chennai,Home,3,494,UPI,15,1259.7
+53,2023-02-22,1875,Male,19,Hyderabad,Beauty,3,962,UPI,20,2308.8
+54,2023-02-23,1566,Male,52,Chennai,Sports,5,779,Credit Card,0,3895.0
+55,2023-02-24,1243,Male,59,Delhi,Home,1,4518,Cash,0,4518.0
+56,2023-02-25,1831,Female,51,Bangalore,Electronics,2,1723,Credit Card,20,2756.8
+57,2023-02-26,1504,Female,47,Hyderabad,Beauty,3,3008,Credit Card,20,7219.200000000001
+58,2023-02-27,1130,Male,30,Bangalore,Sports,2,3475,Cash,15,5907.5
+59,2023-02-28,1484,Male,30,Hyderabad,Electronics,4,4114,Credit Card,20,13164.800000000001
+60,2023-03-01,1818,Female,35,Delhi,Electronics,1,2314,UPI,5,2198.2999999999997
+61,2023-03-02,1646,Female,49,Bangalore,Electronics,4,4089,Cash,0,16356.0
+62,2023-03-03,1020,Female,49,Mumbai,Electronics,4,2743,Cash,0,10972.0
+63,2023-03-04,1840,Female,52,Hyderabad,Home,4,1211,Cash,20,3875.2000000000003
+64,2023-03-05,1166,Male,56,Mumbai,Home,1,3513,Cash,10,3161.7000000000003
+65,2023-03-06,1273,Female,63,Bangalore,Home,1,2664,Credit Card,10,2397.6
+66,2023-03-07,1387,Male,46,Mumbai,Sports,5,3929,Credit Card,20,15716.0
+67,2023-03-08,1600,Female,46,Mumbai,Sports,2,3772,UPI,5,7166.799999999999
+68,2023-03-09,1315,Female,61,Bangalore,Sports,2,980,Debit Card,10,1764.0
+69,2023-03-10,1013,Female,33,Delhi,Clothing,5,4951,Debit Card,20,19804.0
+70,2023-03-11,1241,Female,61,Mumbai,Sports,5,909,UPI,5,4317.75
+71,2023-03-12,1776,Female,64,Mumbai,Home,4,2456,Debit Card,5,9332.8
+72,2023-03-13,1345,Male,27,Delhi,Home,5,4166,UPI,15,17705.5
+73,2023-03-14,1564,Male,47,Mumbai,Clothing,3,671,Credit Card,5,1912.35
+74,2023-03-15,1897,Female,42,Mumbai,Clothing,2,915,Cash,10,1647.0
+75,2023-03-16,1339,Female,56,Mumbai,Sports,5,2553,Cash,10,11488.5
+76,2023-03-17,1091,Male,37,Chennai,Beauty,3,4438,Credit Card,20,10651.2
+77,2023-03-18,1366,Female,22,Delhi,Clothing,3,1164,Cash,20,2793.6000000000004
+78,2023-03-19,1955,Female,18,Mumbai,Electronics,3,1568,Cash,5,4468.8
+79,2023-03-20,1454,Male,47,Delhi,Home,3,1084,Debit Card,0,3252.0
+80,2023-03-21,1427,Female,20,Hyderabad,Electronics,4,4871,Credit Card,15,16561.399999999998
+81,2023-03-22,1508,Female,62,Hyderabad,Home,3,4478,Debit Card,0,13434.0
+82,2023-03-23,1775,Male,31,Mumbai,Home,4,2537,Debit Card,5,9640.6
+83,2023-03-24,1942,Male,47,Delhi,Clothing,4,4354,Cash,5,16545.2
+84,2023-03-25,1034,Male,21,Delhi,Clothing,3,1235,Cash,0,3705.0
+85,2023-03-26,1205,Female,35,Delhi,Electronics,2,4280,Credit Card,15,7276.0
+86,2023-03-27,1080,Male,54,Chennai,Home,3,2638,Cash,0,7914.0
+87,2023-03-28,1931,Male,42,Hyderabad,Electronics,3,625,Cash,20,1500.0
+88,2023-03-29,1561,Male,18,Delhi,Beauty,3,1834,Credit Card,10,4951.8
+89,2023-03-30,1871,Male,63,Delhi,Electronics,2,3780,Cash,20,6048.0
+90,2023-03-31,1387,Male,32,Chennai,Sports,1,4161,Debit Card,10,3744.9
+91,2023-04-01,1001,Male,26,Chennai,Electronics,1,2285,Credit Card,5,2170.75
+92,2023-04-02,1389,Female,32,Delhi,Sports,4,4903,Cash,15,16670.2
+93,2023-04-03,1565,Female,41,Bangalore,Sports,4,3078,UPI,0,12312.0
+94,2023-04-04,1105,Male,21,Delhi,Sports,2,1570,Credit Card,15,2669.0
+95,2023-04-05,1771,Male,29,Delhi,Beauty,5,940,Credit Card,0,4700.0
+96,2023-04-06,1821,Male,54,Chennai,Electronics,1,4378,UPI,20,3502.4
+97,2023-04-07,1476,Female,54,Chennai,Electronics,4,4961,Cash,20,15875.2
+98,2023-04-08,1702,Female,60,Delhi,Beauty,1,1667,Cash,0,1667.0
+99,2023-04-09,1401,Female,23,Delhi,Home,2,4342,Credit Card,15,7381.4
+100,2023-04-10,1729,Female,56,Delhi,Clothing,2,2875,Credit Card,0,5750.0
+101,2023-04-11,1555,Female,63,Chennai,Electronics,5,3903,Cash,5,18539.25
+102,2023-04-12,1161,Female,41,Delhi,Clothing,5,1881,Cash,20,7524.0
+103,2023-04-13,1201,Female,28,Delhi,Beauty,2,2286,Debit Card,5,4343.4
+104,2023-04-14,1957,Female,30,Mumbai,Home,4,2540,Credit Card,20,8128.0
+105,2023-04-15,1995,Female,51,Bangalore,Home,1,4266,Credit Card,20,3412.8
+106,2023-04-16,1269,Male,42,Hyderabad,Home,3,2405,UPI,10,6493.5
+107,2023-04-17,1862,Male,24,Bangalore,Beauty,5,428,Debit Card,5,2033.0
+108,2023-04-18,1815,Male,21,Mumbai,Sports,3,4296,Cash,5,12243.599999999999
+109,2023-04-19,1270,Male,25,Hyderabad,Sports,4,1151,Debit Card,10,4143.6
+110,2023-04-20,1455,Female,37,Delhi,Clothing,5,4403,Cash,15,18712.75
+111,2023-04-21,1461,Female,46,Mumbai,Sports,3,2376,Cash,5,6771.599999999999
+112,2023-04-22,1726,Male,62,Delhi,Sports,4,3294,Debit Card,0,13176.0
+113,2023-04-23,1251,Female,63,Chennai,Home,1,4044,Credit Card,10,3639.6
+114,2023-04-24,1701,Male,27,Mumbai,Home,4,3056,Cash,5,11612.8
+115,2023-04-25,1295,Female,60,Chennai,Clothing,5,1944,Debit Card,15,8262.0
+116,2023-04-26,1724,Male,51,Mumbai,Electronics,2,4671,UPI,5,8874.9
+117,2023-04-27,1719,Female,43,Mumbai,Clothing,1,3444,Debit Card,20,2755.2000000000003
+118,2023-04-28,1748,Female,58,Chennai,Clothing,3,542,UPI,0,1626.0
+119,2023-04-29,1337,Male,20,Hyderabad,Beauty,5,4385,Cash,10,19732.5
+120,2023-04-30,1878,Female,23,Bangalore,Beauty,2,470,Debit Card,20,752.0
+121,2023-05-01,1052,Male,22,Delhi,Clothing,4,952,Debit Card,15,3236.7999999999997
+122,2023-05-02,1791,Male,22,Mumbai,Clothing,2,3812,UPI,20,6099.200000000001
+123,2023-05-03,1921,Male,64,Delhi,Clothing,5,1799,Debit Card,20,7196.0
+124,2023-05-04,1216,Male,40,Chennai,Sports,5,2399,Debit Card,15,10195.75
+125,2023-05-05,1763,Female,26,Delhi,Beauty,2,2458,Cash,20,3932.8
+126,2023-05-06,1187,Female,52,Chennai,Clothing,4,2272,Debit Card,10,8179.2
+127,2023-05-07,1379,Female,37,Delhi,Home,2,4225,Credit Card,5,8027.5
+128,2023-05-08,1492,Male,59,Bangalore,Home,5,2558,UPI,20,10232.0
+129,2023-05-09,1040,Female,52,Bangalore,Sports,5,4339,Debit Card,10,19525.5
+130,2023-05-10,1156,Male,35,Bangalore,Sports,3,2335,UPI,5,6654.75
+131,2023-05-11,1014,Female,34,Bangalore,Electronics,3,3571,UPI,5,10177.35
+132,2023-05-12,1812,Female,41,Bangalore,Electronics,1,1157,UPI,20,925.6
+133,2023-05-13,1064,Female,20,Bangalore,Electronics,5,4123,Debit Card,10,18553.5
+134,2023-05-14,1856,Male,49,Chennai,Sports,3,1349,Debit Card,20,3237.6000000000004
+135,2023-05-15,1838,Female,52,Mumbai,Sports,2,4290,UPI,15,7293.0
+136,2023-05-16,1520,Female,55,Delhi,Sports,4,598,Credit Card,5,2272.4
+137,2023-05-17,1343,Male,30,Bangalore,Home,2,1223,UPI,20,1956.8000000000002
+138,2023-05-18,1128,Female,64,Chennai,Sports,4,4532,Credit Card,5,17221.6
+139,2023-05-19,1647,Male,42,Chennai,Home,3,4606,UPI,10,12436.2
+140,2023-05-20,1471,Female,26,Chennai,Electronics,1,3099,Cash,0,3099.0
+141,2023-05-21,1062,Male,21,Mumbai,Electronics,2,4362,UPI,20,6979.200000000001
+142,2023-05-22,1138,Male,31,Delhi,Electronics,2,4345,UPI,20,6952.0
+143,2023-05-23,1498,Female,54,Mumbai,Clothing,2,2102,Debit Card,5,3993.7999999999997
+144,2023-05-24,1592,Male,51,Hyderabad,Clothing,4,3013,Credit Card,10,10846.800000000001
+145,2023-05-25,1391,Male,28,Chennai,Beauty,3,4806,Cash,15,12255.3
+146,2023-05-26,1674,Male,58,Hyderabad,Beauty,2,3153,Credit Card,10,5675.400000000001
+147,2023-05-27,1418,Male,20,Bangalore,Beauty,2,2957,Cash,20,4731.2
+148,2023-05-28,1288,Male,45,Bangalore,Clothing,1,4822,UPI,15,4098.7
+149,2023-05-29,1378,Male,46,Mumbai,Clothing,1,3646,Debit Card,10,3281.4
+150,2023-05-30,1772,Female,26,Delhi,Beauty,3,1771,Debit Card,0,5313.0
+151,2023-05-31,1489,Male,20,Hyderabad,Beauty,3,3249,Credit Card,5,9259.65
+152,2023-06-01,1230,Male,42,Delhi,Sports,5,1241,Debit Card,10,5584.5
+153,2023-06-02,1040,Female,51,Mumbai,Beauty,1,2207,Credit Card,10,1986.3
+154,2023-06-03,1027,Female,29,Bangalore,Sports,5,1543,Credit Card,0,7715.0
+155,2023-06-04,1134,Female,59,Delhi,Home,4,4723,Cash,20,15113.6
+156,2023-06-05,1200,Female,26,Delhi,Clothing,5,1766,Credit Card,5,8388.5
+157,2023-06-06,1839,Female,32,Bangalore,Beauty,2,4257,Cash,10,7662.6
+158,2023-06-07,1779,Female,57,Hyderabad,Clothing,5,2266,Debit Card,15,9630.5
+159,2023-06-08,1929,Female,42,Bangalore,Clothing,3,675,Credit Card,10,1822.5
+160,2023-06-09,1032,Male,22,Delhi,Clothing,4,562,Credit Card,5,2135.6
+161,2023-06-10,1047,Male,28,Hyderabad,Home,2,4662,UPI,10,8391.6
+162,2023-06-11,1502,Female,51,Hyderabad,Electronics,5,3688,Credit Card,0,18440.0
+163,2023-06-12,1406,Male,41,Bangalore,Beauty,4,3695,Credit Card,10,13302.0
+164,2023-06-13,1573,Male,32,Delhi,Electronics,4,2244,UPI,10,8078.400000000001
+165,2023-06-14,1727,Male,55,Mumbai,Electronics,2,2193,UPI,15,3728.1
+166,2023-06-15,1804,Female,25,Delhi,Electronics,5,3934,Debit Card,0,19670.0
+167,2023-06-16,1098,Female,22,Chennai,Clothing,4,1952,Credit Card,0,7808.0
+168,2023-06-17,1683,Male,43,Mumbai,Sports,4,4441,Debit Card,10,15987.6
+169,2023-06-18,1871,Female,35,Hyderabad,Clothing,1,4192,Debit Card,15,3563.2
+170,2023-06-19,1725,Male,23,Mumbai,Clothing,4,899,UPI,10,3236.4
+171,2023-06-20,1986,Male,54,Hyderabad,Electronics,1,2212,Cash,10,1990.8
+172,2023-06-21,1546,Male,30,Hyderabad,Clothing,5,1592,Debit Card,5,7562.0
+173,2023-06-22,1960,Male,45,Mumbai,Electronics,5,900,Cash,5,4275.0
+174,2023-06-23,1738,Female,22,Hyderabad,Sports,5,680,Credit Card,15,2890.0
+175,2023-06-24,1612,Female,30,Hyderabad,Beauty,3,4513,UPI,20,10831.2
+176,2023-06-25,1942,Female,34,Chennai,Electronics,5,3937,Credit Card,5,18700.75
+177,2023-06-26,1461,Male,57,Delhi,Sports,4,2463,Credit Card,20,7881.6
+178,2023-06-27,1642,Female,62,Delhi,Beauty,2,4655,UPI,0,9310.0
+179,2023-06-28,1768,Male,49,Chennai,Home,1,1398,Credit Card,5,1328.1
+180,2023-06-29,1004,Female,46,Mumbai,Electronics,3,665,UPI,5,1895.25
+181,2023-06-30,1217,Male,20,Bangalore,Electronics,5,2870,Cash,15,12197.5
+182,2023-07-01,1502,Male,57,Bangalore,Home,5,3719,Credit Card,20,14876.0
+183,2023-07-02,1766,Male,51,Bangalore,Home,2,2776,UPI,5,5274.4
+184,2023-07-03,1397,Female,57,Chennai,Electronics,2,1090,Debit Card,5,2071.0
+185,2023-07-04,1870,Female,44,Chennai,Home,3,3869,Credit Card,15,9865.949999999999
+186,2023-07-05,1794,Female,30,Hyderabad,Clothing,1,1046,Cash,15,889.1
+187,2023-07-06,1392,Female,62,Bangalore,Beauty,5,612,UPI,20,2448.0
+188,2023-07-07,1206,Male,50,Mumbai,Beauty,3,4933,Credit Card,0,14799.0
+189,2023-07-08,1014,Female,23,Mumbai,Beauty,4,1220,Credit Card,0,4880.0
+190,2023-07-09,1857,Female,41,Bangalore,Clothing,4,1377,Credit Card,10,4957.2
+191,2023-07-10,1553,Male,36,Bangalore,Home,3,3129,Cash,5,8917.65
+192,2023-07-11,1891,Male,33,Bangalore,Sports,5,2681,UPI,20,10724.0
+193,2023-07-12,1460,Male,57,Chennai,Home,3,3918,Debit Card,5,11166.3
+194,2023-07-13,1690,Female,45,Chennai,Electronics,5,1097,Debit Card,20,4388.0
+195,2023-07-14,1574,Male,50,Chennai,Beauty,2,4743,Debit Card,20,7588.8
+196,2023-07-15,1863,Male,58,Delhi,Home,3,572,UPI,20,1372.8000000000002
+197,2023-07-16,1742,Male,30,Mumbai,Sports,5,3310,Debit Card,5,15722.5
+198,2023-07-17,1240,Female,60,Mumbai,Electronics,3,2073,Cash,15,5286.15
+199,2023-07-18,1563,Male,62,Hyderabad,Clothing,3,2847,UPI,5,8113.95
+200,2023-07-19,1095,Female,42,Chennai,Clothing,5,3464,Credit Card,20,13856.0
+201,2023-07-20,1899,Female,59,Delhi,Sports,5,1246,Cash,10,5607.0
+202,2023-07-21,1733,Male,53,Delhi,Electronics,1,2965,Credit Card,0,2965.0
+203,2023-07-22,1484,Male,44,Mumbai,Beauty,3,806,Debit Card,20,1934.4
+204,2023-07-23,1406,Female,55,Chennai,Home,4,543,Cash,10,1954.8
+205,2023-07-24,1230,Male,24,Hyderabad,Electronics,3,805,UPI,15,2052.75
+206,2023-07-25,1748,Male,22,Chennai,Clothing,3,4817,Cash,20,11560.800000000001
+207,2023-07-26,1654,Female,60,Bangalore,Sports,5,3458,Credit Card,10,15561.0
+208,2023-07-27,1170,Female,62,Chennai,Sports,3,3890,UPI,20,9336.0
+209,2023-07-28,1540,Male,48,Bangalore,Home,3,2172,Cash,5,6190.2
+210,2023-07-29,1035,Female,40,Bangalore,Sports,4,4093,Cash,10,14734.800000000001
+211,2023-07-30,1524,Male,59,Hyderabad,Sports,5,1492,Cash,5,7087.0
+212,2023-07-31,1159,Male,27,Mumbai,Electronics,3,4725,Cash,5,13466.25
+213,2023-08-01,1838,Male,49,Chennai,Beauty,2,1764,UPI,10,3175.2000000000003
+214,2023-08-02,1698,Female,60,Bangalore,Home,1,690,Credit Card,0,690.0
+215,2023-08-03,1242,Male,47,Chennai,Electronics,4,4776,Cash,10,17193.600000000002
+216,2023-08-04,1085,Male,56,Mumbai,Beauty,3,3677,UPI,0,11031.0
+217,2023-08-05,1795,Male,48,Mumbai,Electronics,2,972,Credit Card,20,1555.2
+218,2023-08-06,1577,Female,35,Delhi,Electronics,3,2860,Cash,20,6864.0
+219,2023-08-07,1681,Female,53,Mumbai,Sports,3,1511,Credit Card,10,4079.7000000000003
+220,2023-08-08,1556,Female,19,Hyderabad,Beauty,5,1229,Credit Card,20,4916.0
+221,2023-08-09,1573,Female,31,Bangalore,Home,5,1839,UPI,15,7815.75
+222,2023-08-10,1952,Female,30,Delhi,Home,5,1212,Credit Card,5,5757.0
+223,2023-08-11,1645,Male,46,Hyderabad,Beauty,2,943,UPI,5,1791.6999999999998
+224,2023-08-12,1795,Female,29,Chennai,Sports,3,4822,Cash,0,14466.0
+225,2023-08-13,1027,Female,56,Bangalore,Clothing,1,801,Credit Card,20,640.8000000000001
+226,2023-08-14,1619,Female,19,Mumbai,Electronics,4,1029,Credit Card,0,4116.0
+227,2023-08-15,1555,Male,49,Bangalore,Sports,5,1583,Debit Card,5,7519.25
+228,2023-08-16,1339,Female,30,Chennai,Beauty,5,2418,Cash,5,11485.5
+229,2023-08-17,1797,Female,63,Delhi,Electronics,3,4852,Cash,20,11644.800000000001
+230,2023-08-18,1957,Male,44,Delhi,Home,3,4686,Debit Card,15,11949.3
+231,2023-08-19,1330,Female,58,Delhi,Clothing,2,4136,Debit Card,15,7031.2
+232,2023-08-20,1639,Male,34,Mumbai,Home,2,1219,UPI,20,1950.4
+233,2023-08-21,1505,Male,57,Hyderabad,Beauty,5,4350,UPI,20,17400.0
+234,2023-08-22,1347,Male,48,Hyderabad,Electronics,3,2639,Credit Card,0,7917.0
+235,2023-08-23,1472,Male,51,Bangalore,Beauty,1,1055,Credit Card,20,844.0
+236,2023-08-24,1230,Male,41,Mumbai,Electronics,4,2169,Credit Card,15,7374.599999999999
+237,2023-08-25,1189,Female,62,Delhi,Sports,3,4772,Credit Card,20,11452.800000000001
+238,2023-08-26,1224,Male,52,Delhi,Clothing,3,807,UPI,0,2421.0
+239,2023-08-27,1384,Male,23,Chennai,Sports,2,1736,Cash,0,3472.0
+240,2023-08-28,1376,Female,36,Chennai,Sports,4,2875,Credit Card,0,11500.0
+241,2023-08-29,1282,Male,47,Delhi,Beauty,5,3726,Cash,0,18630.0
+242,2023-08-30,1957,Female,24,Delhi,Clothing,3,858,Credit Card,10,2316.6
+243,2023-08-31,1632,Female,27,Mumbai,Electronics,5,3402,Debit Card,20,13608.0
+244,2023-09-01,1627,Female,58,Hyderabad,Electronics,3,4816,Credit Card,5,13725.599999999999
+245,2023-09-02,1972,Male,49,Chennai,Home,5,3922,Credit Card,20,15688.0
+246,2023-09-03,1744,Male,51,Hyderabad,Electronics,4,4699,Credit Card,10,16916.4
+247,2023-09-04,1258,Male,45,Mumbai,Beauty,2,4357,UPI,0,8714.0
+248,2023-09-05,1358,Female,32,Delhi,Sports,4,4015,Debit Card,10,14454.0
+249,2023-09-06,1709,Male,47,Hyderabad,Sports,1,1601,Credit Card,15,1360.85
+250,2023-09-07,1455,Male,54,Delhi,Sports,2,2455,Credit Card,15,4173.5
+251,2023-09-08,1410,Male,46,Delhi,Clothing,4,992,Cash,20,3174.4
+252,2023-09-09,1648,Female,39,Bangalore,Electronics,1,4650,Debit Card,20,3720.0
+253,2023-09-10,1317,Female,21,Hyderabad,Beauty,3,1778,Credit Card,5,5067.3
+254,2023-09-11,1676,Male,37,Hyderabad,Clothing,3,556,Cash,5,1584.6
+255,2023-09-12,1224,Male,49,Delhi,Home,5,2730,Cash,15,11602.5
+256,2023-09-13,1818,Male,53,Mumbai,Beauty,2,741,UPI,0,1482.0
+257,2023-09-14,1233,Male,21,Bangalore,Beauty,3,2181,Cash,10,5888.7
+258,2023-09-15,1683,Female,44,Delhi,Beauty,2,2946,Credit Card,5,5597.4
+259,2023-09-16,1663,Female,34,Chennai,Sports,3,4120,UPI,5,11742.0
+260,2023-09-17,1974,Female,29,Chennai,Beauty,5,4977,UPI,0,24885.0
+261,2023-09-18,1826,Female,39,Bangalore,Electronics,4,2035,Credit Card,0,8140.0
+262,2023-09-19,1373,Male,34,Mumbai,Beauty,5,4035,Debit Card,20,16140.0
+263,2023-09-20,1671,Male,27,Delhi,Sports,1,2945,Cash,10,2650.5
+264,2023-09-21,1607,Male,18,Hyderabad,Beauty,3,318,UPI,0,954.0
+265,2023-09-22,1471,Female,39,Bangalore,Home,1,1424,Debit Card,5,1352.8
+266,2023-09-23,1232,Male,43,Mumbai,Home,1,4285,Credit Card,5,4070.75
+267,2023-09-24,1691,Female,35,Hyderabad,Sports,2,2954,Cash,15,5021.8
+268,2023-09-25,1112,Female,31,Chennai,Electronics,3,2380,Cash,0,7140.0
+269,2023-09-26,1829,Male,64,Chennai,Electronics,1,1847,UPI,20,1477.6000000000001
+270,2023-09-27,1496,Male,46,Hyderabad,Clothing,4,1161,Cash,10,4179.6
+271,2023-09-28,1441,Male,29,Bangalore,Sports,1,454,Cash,20,363.20000000000005
+272,2023-09-29,1563,Female,53,Chennai,Beauty,4,3794,Cash,5,14417.199999999999
+273,2023-09-30,1267,Male,52,Delhi,Sports,2,1204,Cash,20,1926.4
+274,2023-10-01,1509,Female,29,Hyderabad,Clothing,1,1569,Credit Card,5,1490.55
+275,2023-10-02,1806,Male,24,Hyderabad,Sports,5,704,Debit Card,5,3344.0
+276,2023-10-03,1385,Female,46,Chennai,Sports,2,1143,Credit Card,5,2171.7
+277,2023-10-04,1386,Female,28,Bangalore,Clothing,4,2082,Credit Card,5,7911.599999999999
+278,2023-10-05,1112,Male,50,Delhi,Electronics,2,1864,UPI,5,3541.6
+279,2023-10-06,1612,Female,23,Bangalore,Beauty,1,1484,Cash,15,1261.3999999999999
+280,2023-10-07,1624,Female,64,Mumbai,Clothing,3,1046,Credit Card,20,2510.4
+281,2023-10-08,1951,Male,32,Mumbai,Home,3,2025,Cash,15,5163.75
+282,2023-10-09,1080,Female,49,Chennai,Electronics,4,3488,Credit Card,15,11859.199999999999
+283,2023-10-10,1698,Male,28,Chennai,Home,4,570,Credit Card,0,2280.0
+284,2023-10-11,1112,Female,40,Chennai,Electronics,3,4256,UPI,0,12768.0
+285,2023-10-12,1001,Male,43,Mumbai,Beauty,4,471,Debit Card,0,1884.0
+286,2023-10-13,1641,Male,51,Bangalore,Beauty,2,573,Debit Card,10,1031.4
+287,2023-10-14,1219,Female,63,Bangalore,Sports,5,2606,Credit Card,0,13030.0
+288,2023-10-15,1565,Female,51,Chennai,Home,5,1458,UPI,20,5832.0
+289,2023-10-16,1854,Female,46,Delhi,Electronics,2,2006,Cash,15,3410.2
+290,2023-10-17,1996,Female,21,Bangalore,Beauty,5,2071,Cash,20,8284.0
+291,2023-10-18,1735,Female,34,Mumbai,Clothing,1,721,Credit Card,0,721.0
+292,2023-10-19,1224,Male,52,Hyderabad,Beauty,2,1509,Debit Card,10,2716.2000000000003
+293,2023-10-20,1384,Female,30,Hyderabad,Clothing,4,4975,UPI,10,17910.0
+294,2023-10-21,1402,Male,58,Hyderabad,Electronics,2,1190,Debit Card,15,2023.0
+295,2023-10-22,1637,Male,56,Delhi,Beauty,3,3567,Cash,20,8560.800000000001
+296,2023-10-23,1129,Female,32,Chennai,Beauty,4,1773,Debit Card,5,6737.4
+297,2023-10-24,1052,Male,46,Mumbai,Electronics,3,3543,Cash,20,8503.2
+298,2023-10-25,1683,Male,46,Delhi,Beauty,4,4778,UPI,0,19112.0
+299,2023-10-26,1729,Male,28,Mumbai,Clothing,5,2481,UPI,5,11784.75
+300,2023-10-27,1671,Male,49,Mumbai,Beauty,2,1749,Credit Card,10,3148.2000000000003
+301,2023-10-28,1709,Female,19,Chennai,Home,1,3396,Credit Card,15,2886.6
+302,2023-10-29,1415,Male,64,Hyderabad,Sports,4,3556,Debit Card,15,12090.4
+303,2023-10-30,1246,Female,31,Chennai,Clothing,4,3456,UPI,10,12441.6
+304,2023-10-31,1835,Female,37,Delhi,Home,3,1890,UPI,0,5670.0
+305,2023-11-01,1438,Male,39,Delhi,Electronics,5,4539,Credit Card,10,20425.5
+306,2023-11-02,1202,Female,28,Delhi,Clothing,3,4281,Cash,0,12843.0
+307,2023-11-03,1183,Female,44,Chennai,Sports,3,1735,Debit Card,5,4944.75
+308,2023-11-04,1122,Female,20,Mumbai,Sports,5,523,Debit Card,10,2353.5
+309,2023-11-05,1400,Male,34,Mumbai,Electronics,1,519,Credit Card,0,519.0
+310,2023-11-06,1766,Female,61,Bangalore,Electronics,3,4574,UPI,5,13035.9
+311,2023-11-07,1293,Female,45,Delhi,Clothing,3,1954,Credit Card,10,5275.8
+312,2023-11-08,1279,Female,46,Mumbai,Beauty,4,4828,Credit Card,15,16415.2
+313,2023-11-09,1836,Male,38,Bangalore,Electronics,5,564,Credit Card,10,2538.0
+314,2023-11-10,1883,Female,64,Mumbai,Beauty,2,1253,Credit Card,20,2004.8000000000002
+315,2023-11-11,1609,Male,33,Delhi,Home,1,4824,Cash,10,4341.6
+316,2023-11-12,1197,Male,54,Hyderabad,Sports,1,4033,Cash,20,3226.4
+317,2023-11-13,1981,Male,37,Delhi,Beauty,5,3074,UPI,5,14601.5
+318,2023-11-14,1906,Male,23,Chennai,Sports,4,3424,Credit Card,10,12326.4
+319,2023-11-15,1510,Male,36,Mumbai,Beauty,4,779,Cash,5,2960.2
+320,2023-11-16,1751,Male,22,Mumbai,Home,5,3814,UPI,5,18116.5
+321,2023-11-17,1143,Female,20,Chennai,Electronics,4,1653,Credit Card,0,6612.0
+322,2023-11-18,1608,Male,18,Chennai,Home,1,3622,Debit Card,5,3440.8999999999996
+323,2023-11-19,1200,Female,55,Hyderabad,Electronics,1,4178,Cash,5,3969.1
+324,2023-11-20,1123,Female,32,Mumbai,Electronics,2,1189,UPI,10,2140.2000000000003
+325,2023-11-21,1186,Male,51,Mumbai,Sports,5,4154,Debit Card,10,18693.0
+326,2023-11-22,1325,Female,52,Hyderabad,Home,3,1224,Credit Card,15,3121.2
+327,2023-11-23,1463,Female,42,Bangalore,Beauty,3,2470,Credit Card,0,7410.0
+328,2023-11-24,1348,Female,41,Hyderabad,Home,2,2202,Credit Card,5,4183.8
+329,2023-11-25,1770,Female,29,Delhi,Sports,2,2695,Cash,0,5390.0
+330,2023-11-26,1659,Male,35,Mumbai,Electronics,4,328,UPI,20,1049.6000000000001
+331,2023-11-27,1763,Female,32,Chennai,Sports,2,334,Debit Card,5,634.6
+332,2023-11-28,1954,Male,61,Delhi,Clothing,2,3889,UPI,0,7778.0
+333,2023-11-29,1931,Female,33,Mumbai,Clothing,3,2970,Cash,15,7573.5
+334,2023-11-30,1402,Female,44,Hyderabad,Beauty,4,3665,UPI,15,12461.0
+335,2023-12-01,1345,Male,25,Delhi,Sports,2,888,Cash,5,1687.1999999999998
+336,2023-12-02,1962,Female,63,Mumbai,Beauty,2,3518,Credit Card,20,5628.8
+337,2023-12-03,1510,Female,42,Bangalore,Beauty,4,3438,Debit Card,15,11689.199999999999
+338,2023-12-04,1146,Female,34,Bangalore,Clothing,5,1203,Credit Card,15,5112.75
+339,2023-12-05,1147,Male,46,Chennai,Beauty,4,4386,UPI,20,14035.2
+340,2023-12-06,1863,Female,25,Mumbai,Clothing,3,2469,Credit Card,0,7407.0
+341,2023-12-07,1710,Male,32,Bangalore,Electronics,5,639,Debit Card,15,2715.75
+342,2023-12-08,1819,Female,44,Hyderabad,Sports,1,4570,Credit Card,10,4113.0
+343,2023-12-09,1488,Male,63,Mumbai,Beauty,4,2014,Debit Card,15,6847.599999999999
+344,2023-12-10,1928,Male,24,Hyderabad,Clothing,3,4992,Debit Card,0,14976.0
+345,2023-12-11,1935,Female,20,Hyderabad,Home,5,4846,Credit Card,0,24230.0
+346,2023-12-12,1639,Female,46,Bangalore,Beauty,4,856,Cash,5,3252.7999999999997
+347,2023-12-13,1550,Male,61,Mumbai,Electronics,2,3387,UPI,10,6096.6
+348,2023-12-14,1337,Male,41,Delhi,Electronics,4,3566,Cash,0,14264.0
+349,2023-12-15,1871,Female,20,Bangalore,Home,1,3867,Cash,20,3093.6000000000004
+350,2023-12-16,1640,Male,37,Bangalore,Clothing,4,2356,Credit Card,10,8481.6
+351,2023-12-17,1778,Female,63,Mumbai,Beauty,5,4199,UPI,10,18895.5
+352,2023-12-18,1987,Female,32,Mumbai,Clothing,5,1316,UPI,20,5264.0
+353,2023-12-19,1952,Female,42,Hyderabad,Electronics,4,2362,Cash,15,8030.8
+354,2023-12-20,1472,Female,47,Mumbai,Clothing,5,1138,Credit Card,20,4552.0
+355,2023-12-21,1945,Male,31,Hyderabad,Electronics,2,1937,UPI,20,3099.2000000000003
+356,2023-12-22,1150,Female,24,Bangalore,Clothing,4,4621,Cash,15,15711.4
+357,2023-12-23,1414,Male,34,Chennai,Home,2,3796,UPI,15,6453.2
+358,2023-12-24,1989,Female,61,Delhi,Sports,2,2113,Credit Card,15,3592.1
+359,2023-12-25,1297,Male,37,Bangalore,Home,3,3779,Credit Card,15,9636.449999999999
+360,2023-12-26,1610,Female,53,Mumbai,Home,4,1751,Credit Card,15,5953.4
+361,2023-12-27,1262,Male,26,Delhi,Sports,5,2613,UPI,20,10452.0
+362,2023-12-28,1763,Male,55,Chennai,Sports,2,1814,Debit Card,5,3446.6
+363,2023-12-29,1143,Female,39,Chennai,Beauty,3,1531,UPI,5,4363.349999999999
+364,2023-12-30,1345,Female,19,Hyderabad,Beauty,4,1945,Debit Card,0,7780.0
+365,2023-12-31,1623,Female,41,Delhi,Home,4,3299,Credit Card,5,12536.199999999999
+366,2024-01-01,1571,Female,25,Hyderabad,Home,1,3740,Cash,5,3553.0
+367,2024-01-02,1880,Male,28,Bangalore,Electronics,1,4356,Debit Card,20,3484.8
+368,2024-01-03,1001,Female,30,Delhi,Electronics,2,605,Credit Card,15,1028.5
+369,2024-01-04,1896,Male,34,Bangalore,Beauty,1,3836,Credit Card,15,3260.6
+370,2024-01-05,1303,Male,25,Hyderabad,Beauty,2,2023,Debit Card,20,3236.8
+371,2024-01-06,1253,Female,38,Delhi,Electronics,5,1989,Cash,5,9447.75
+372,2024-01-07,1651,Male,35,Hyderabad,Electronics,2,1817,Credit Card,20,2907.2000000000003
+373,2024-01-08,1452,Male,47,Delhi,Clothing,1,4217,Debit Card,0,4217.0
+374,2024-01-09,1036,Male,35,Hyderabad,Clothing,5,719,Cash,15,3055.75
+375,2024-01-10,1159,Male,63,Chennai,Electronics,1,3236,Cash,10,2912.4
+376,2024-01-11,1008,Female,64,Hyderabad,Clothing,2,4162,Credit Card,0,8324.0
+377,2024-01-12,1232,Female,48,Chennai,Sports,3,4529,UPI,0,13587.0
+378,2024-01-13,1098,Female,55,Hyderabad,Beauty,4,1750,UPI,20,5600.0
+379,2024-01-14,1658,Female,49,Delhi,Beauty,1,3396,Credit Card,5,3226.2
+380,2024-01-15,1815,Male,28,Delhi,Electronics,2,3561,Cash,15,6053.7
+381,2024-01-16,1207,Male,62,Delhi,Home,5,1464,Credit Card,10,6588.0
+382,2024-01-17,1130,Female,42,Mumbai,Electronics,1,2169,Debit Card,0,2169.0
+383,2024-01-18,1403,Female,50,Bangalore,Clothing,1,2119,UPI,10,1907.1000000000001
+384,2024-01-19,1151,Female,55,Delhi,Home,4,3005,Debit Card,5,11419.0
+385,2024-01-20,1053,Male,58,Chennai,Clothing,2,3815,Credit Card,5,7248.5
+386,2024-01-21,1119,Female,25,Delhi,Sports,3,1642,Credit Card,10,4433.400000000001
+387,2024-01-22,1672,Female,28,Mumbai,Clothing,5,2526,Cash,15,10735.5
+388,2024-01-23,1919,Female,39,Chennai,Sports,2,1379,Cash,5,2620.1
+389,2024-01-24,1627,Male,41,Mumbai,Sports,5,4506,Cash,10,20277.0
+390,2024-01-25,1586,Male,58,Chennai,Clothing,1,4863,Debit Card,0,4863.0
+391,2024-01-26,1624,Male,34,Hyderabad,Clothing,4,3079,Cash,10,11084.4
+392,2024-01-27,1967,Male,29,Bangalore,Sports,4,2828,Credit Card,10,10180.800000000001
+393,2024-01-28,1419,Male,63,Bangalore,Home,3,1113,Cash,20,2671.2000000000003
+394,2024-01-29,1421,Male,49,Mumbai,Sports,4,2331,UPI,5,8857.8
+395,2024-01-30,1103,Male,32,Bangalore,Beauty,1,622,Cash,15,528.6999999999999
+396,2024-01-31,1851,Male,33,Mumbai,Sports,3,3269,Debit Card,15,8335.949999999999
+397,2024-02-01,1253,Female,39,Mumbai,Home,2,1203,UPI,20,1924.8000000000002
+398,2024-02-02,1226,Female,45,Mumbai,Beauty,4,1841,UPI,15,6259.4
+399,2024-02-03,1111,Male,37,Bangalore,Electronics,3,3803,UPI,10,10268.1
+400,2024-02-04,1509,Male,50,Mumbai,Electronics,1,2953,Debit Card,20,2362.4
+401,2024-02-05,1472,Female,27,Bangalore,Home,5,2776,Credit Card,0,13880.0
+402,2024-02-06,1098,Male,57,Mumbai,Sports,5,3640,Cash,5,17290.0
+403,2024-02-07,1152,Male,49,Delhi,Clothing,1,4543,UPI,5,4315.849999999999
+404,2024-02-08,1860,Male,50,Mumbai,Home,1,1441,UPI,5,1368.95
+405,2024-02-09,1913,Female,19,Chennai,Beauty,5,1149,UPI,10,5170.5
+406,2024-02-10,1895,Female,50,Mumbai,Beauty,3,666,Credit Card,0,1998.0
+407,2024-02-11,1877,Female,50,Hyderabad,Electronics,5,3197,Credit Card,20,12788.0
+408,2024-02-12,1337,Female,58,Mumbai,Beauty,1,1389,Debit Card,20,1111.2
+409,2024-02-13,1705,Female,30,Chennai,Home,4,4341,Credit Card,5,16495.8
+410,2024-02-14,1821,Male,47,Chennai,Beauty,2,2338,Cash,0,4676.0
+411,2024-02-15,1162,Female,50,Bangalore,Home,4,3160,Debit Card,0,12640.0
+412,2024-02-16,1719,Male,30,Delhi,Clothing,4,4570,Debit Card,0,18280.0
+413,2024-02-17,1956,Male,43,Mumbai,Electronics,1,2154,Cash,15,1830.8999999999999
+414,2024-02-18,1680,Female,39,Bangalore,Beauty,5,4983,Cash,15,21177.75
+415,2024-02-19,1995,Female,56,Delhi,Home,3,794,Cash,5,2262.9
+416,2024-02-20,1160,Male,19,Mumbai,Sports,4,3482,Debit Card,0,13928.0
+417,2024-02-21,1579,Male,55,Hyderabad,Electronics,5,2084,Debit Card,0,10420.0
+418,2024-02-22,1800,Male,56,Mumbai,Clothing,3,3810,Debit Card,20,9144.0
+419,2024-02-23,1397,Female,43,Chennai,Home,4,4086,Cash,20,13075.2
+420,2024-02-24,1276,Female,63,Chennai,Clothing,3,4430,Cash,5,12625.5
+421,2024-02-25,1815,Female,32,Hyderabad,Clothing,5,1298,UPI,0,6490.0
+422,2024-02-26,1915,Female,51,Bangalore,Beauty,2,4769,Credit Card,5,9061.1
+423,2024-02-27,1503,Female,59,Delhi,Beauty,5,1751,UPI,20,7004.0
+424,2024-02-28,1895,Male,61,Mumbai,Home,1,2051,Cash,20,1640.8000000000002
+425,2024-02-29,1391,Female,57,Chennai,Sports,3,2580,Debit Card,15,6579.0
+426,2024-03-01,1134,Male,28,Bangalore,Home,2,4958,Cash,5,9420.199999999999
+427,2024-03-02,1194,Male,20,Hyderabad,Sports,3,3234,Credit Card,5,9216.9
+428,2024-03-03,1400,Male,23,Chennai,Clothing,3,4034,UPI,0,12102.0
+429,2024-03-04,1639,Female,26,Hyderabad,Electronics,4,3646,UPI,0,14584.0
+430,2024-03-05,1032,Female,23,Mumbai,Home,1,2173,Debit Card,15,1847.05
+431,2024-03-06,1687,Female,26,Delhi,Home,3,4834,UPI,10,13051.800000000001
+432,2024-03-07,1459,Male,56,Chennai,Sports,5,4103,UPI,10,18463.5
+433,2024-03-08,1954,Male,48,Chennai,Clothing,5,2279,Cash,10,10255.5
+434,2024-03-09,1882,Male,49,Mumbai,Clothing,4,998,UPI,5,3792.3999999999996
+435,2024-03-10,1469,Male,58,Bangalore,Sports,1,1612,UPI,5,1531.3999999999999
+436,2024-03-11,1374,Male,29,Delhi,Clothing,1,3262,UPI,20,2609.6000000000004
+437,2024-03-12,1021,Male,25,Chennai,Beauty,5,3238,Debit Card,5,15380.5
+438,2024-03-13,1749,Female,25,Delhi,Electronics,2,2600,Debit Card,5,4940.0
+439,2024-03-14,1669,Female,45,Chennai,Home,4,3497,Cash,5,13288.599999999999
+440,2024-03-15,1037,Female,37,Delhi,Electronics,4,426,UPI,15,1448.3999999999999
+441,2024-03-16,1229,Female,64,Hyderabad,Home,5,1491,Debit Card,5,7082.25
+442,2024-03-17,1364,Male,24,Chennai,Beauty,5,2939,Debit Card,0,14695.0
+443,2024-03-18,1562,Male,28,Delhi,Clothing,2,4689,Cash,0,9378.0
+444,2024-03-19,1437,Female,37,Bangalore,Sports,2,4216,Credit Card,20,6745.6
+445,2024-03-20,1775,Male,33,Hyderabad,Beauty,1,1666,UPI,15,1416.1
+446,2024-03-21,1282,Female,21,Hyderabad,Electronics,4,1319,Debit Card,0,5276.0
+447,2024-03-22,1026,Female,23,Bangalore,Sports,4,4379,Cash,15,14888.6
+448,2024-03-23,1225,Female,39,Delhi,Clothing,5,4814,Cash,15,20459.5
+449,2024-03-24,1276,Male,43,Mumbai,Beauty,1,4839,Cash,20,3871.2000000000003
+450,2024-03-25,1797,Female,20,Bangalore,Sports,4,984,Debit Card,15,3345.6
+451,2024-03-26,1608,Female,58,Delhi,Beauty,1,3929,UPI,5,3732.5499999999997
+452,2024-03-27,1283,Female,59,Bangalore,Beauty,1,3187,Credit Card,15,2708.95
+453,2024-03-28,1878,Male,31,Bangalore,Clothing,5,1762,UPI,20,7048.0
+454,2024-03-29,1959,Male,28,Chennai,Home,1,4386,Cash,20,3508.8
+455,2024-03-30,1480,Female,35,Delhi,Sports,2,2561,Cash,20,4097.6
+456,2024-03-31,1452,Male,29,Mumbai,Clothing,2,4480,Credit Card,0,8960.0
+457,2024-04-01,1828,Male,40,Chennai,Beauty,3,3141,UPI,5,8951.85
+458,2024-04-02,1815,Male,29,Bangalore,Clothing,5,2067,Cash,0,10335.0
+459,2024-04-03,1658,Male,30,Bangalore,Home,3,4480,Cash,10,12096.0
+460,2024-04-04,1515,Male,42,Bangalore,Sports,2,3860,UPI,5,7334.0
+461,2024-04-05,1546,Male,62,Delhi,Home,3,2412,Cash,15,6150.599999999999
+462,2024-04-06,1191,Male,36,Delhi,Electronics,5,926,UPI,20,3704.0
+463,2024-04-07,1048,Male,63,Chennai,Sports,5,4459,Cash,10,20065.5
+464,2024-04-08,1511,Male,53,Mumbai,Home,1,3714,UPI,5,3528.2999999999997
+465,2024-04-09,1016,Male,62,Chennai,Beauty,4,1675,Credit Card,0,6700.0
+466,2024-04-10,1171,Female,25,Hyderabad,Sports,1,1481,Cash,20,1184.8
+467,2024-04-11,1219,Female,46,Bangalore,Sports,5,790,Credit Card,0,3950.0
+468,2024-04-12,1157,Male,49,Bangalore,Clothing,2,4029,Cash,5,7655.099999999999
+469,2024-04-13,1476,Female,61,Bangalore,Beauty,2,3834,Cash,5,7284.599999999999
+470,2024-04-14,1045,Female,35,Chennai,Electronics,1,3596,Debit Card,10,3236.4
+471,2024-04-15,1372,Male,23,Chennai,Home,5,2240,UPI,15,9520.0
+472,2024-04-16,1517,Male,35,Bangalore,Clothing,2,4708,Credit Card,0,9416.0
+473,2024-04-17,1098,Male,36,Chennai,Home,5,2182,Credit Card,10,9819.0
+474,2024-04-18,1891,Female,39,Delhi,Electronics,2,3287,Credit Card,20,5259.200000000001
+475,2024-04-19,1744,Female,54,Delhi,Electronics,5,3459,UPI,15,14700.75
+476,2024-04-20,1036,Male,49,Chennai,Sports,3,4830,Debit Card,10,13041.0
+477,2024-04-21,1279,Male,58,Bangalore,Electronics,5,981,Credit Card,0,4905.0
+478,2024-04-22,1348,Male,20,Chennai,Home,5,1373,UPI,5,6521.75
+479,2024-04-23,1496,Female,45,Chennai,Beauty,1,2687,Cash,20,2149.6
+480,2024-04-24,1301,Female,27,Chennai,Beauty,3,2694,Credit Card,0,8082.0
+481,2024-04-25,1180,Female,52,Hyderabad,Sports,4,2993,Credit Card,15,10176.199999999999
+482,2024-04-26,1606,Female,46,Delhi,Home,1,1670,Debit Card,15,1419.5
+483,2024-04-27,1098,Male,32,Mumbai,Home,4,4640,Credit Card,5,17632.0
+484,2024-04-28,1699,Male,50,Mumbai,Electronics,2,2456,Credit Card,5,4666.4
+485,2024-04-29,1992,Male,24,Hyderabad,Home,4,2880,Cash,20,9216.0
+486,2024-04-30,1115,Male,29,Chennai,Clothing,5,4691,UPI,20,18764.0
+487,2024-05-01,1190,Female,47,Hyderabad,Electronics,4,2459,UPI,5,9344.199999999999
+488,2024-05-02,1252,Female,38,Hyderabad,Clothing,1,3548,Debit Card,5,3370.6
+489,2024-05-03,1980,Male,48,Bangalore,Sports,1,4031,Cash,15,3426.35
+490,2024-05-04,1927,Male,41,Delhi,Beauty,4,4129,UPI,5,15690.199999999999
+491,2024-05-05,1982,Female,37,Mumbai,Sports,1,1927,Cash,10,1734.3
+492,2024-05-06,1160,Male,54,Chennai,Beauty,1,3772,UPI,0,3772.0
+493,2024-05-07,1255,Female,21,Mumbai,Sports,4,327,Cash,5,1242.6
+494,2024-05-08,1322,Male,45,Mumbai,Home,3,2285,Debit Card,20,5484.0
+495,2024-05-09,1127,Male,61,Delhi,Clothing,3,4453,Credit Card,10,12023.1
+496,2024-05-10,1017,Male,37,Mumbai,Beauty,2,1821,Debit Card,20,2913.6000000000004
+497,2024-05-11,1792,Male,41,Mumbai,Electronics,1,596,UPI,10,536.4
+498,2024-05-12,1734,Male,49,Hyderabad,Clothing,4,2481,Debit Card,5,9427.8
+499,2024-05-13,1565,Male,58,Delhi,Electronics,1,3702,Credit Card,0,3702.0
+500,2024-05-14,1569,Male,53,Bangalore,Clothing,5,2596,Debit Card,20,10384.0
+501,2024-05-15,1322,Female,51,Chennai,Clothing,1,2897,UPI,10,2607.3
+502,2024-05-16,1871,Female,53,Mumbai,Sports,1,1201,UPI,15,1020.85
+503,2024-05-17,1685,Female,19,Chennai,Beauty,3,1398,Debit Card,5,3984.2999999999997
+504,2024-05-18,1791,Female,32,Bangalore,Beauty,4,1977,Credit Card,0,7908.0
+505,2024-05-19,1625,Female,51,Chennai,Clothing,1,3181,Debit Card,5,3021.95
+506,2024-05-20,1287,Male,53,Bangalore,Home,3,1678,Credit Card,15,4278.9
+507,2024-05-21,1942,Male,23,Hyderabad,Home,2,1548,Cash,0,3096.0
+508,2024-05-22,1853,Female,56,Mumbai,Electronics,3,4035,Credit Card,15,10289.25
+509,2024-05-23,1662,Male,59,Bangalore,Electronics,3,4541,Cash,5,12941.849999999999
+510,2024-05-24,1961,Female,29,Chennai,Sports,3,1564,Debit Card,10,4222.8
+511,2024-05-25,1638,Female,20,Mumbai,Clothing,1,2207,Credit Card,5,2096.65
+512,2024-05-26,1154,Male,62,Hyderabad,Electronics,1,1358,Cash,5,1290.1
+513,2024-05-27,1489,Male,35,Mumbai,Electronics,2,3049,Cash,5,5793.099999999999
+514,2024-05-28,1385,Male,57,Bangalore,Clothing,5,2348,Cash,20,9392.0
+515,2024-05-29,1985,Female,38,Hyderabad,Sports,5,4548,UPI,15,19329.0
+516,2024-05-30,1784,Male,32,Chennai,Electronics,5,2776,Debit Card,15,11798.0
+517,2024-05-31,1103,Female,50,Hyderabad,Sports,2,4316,Cash,15,7337.2
+518,2024-06-01,1928,Female,52,Hyderabad,Beauty,5,4903,Credit Card,20,19612.0
+519,2024-06-02,1392,Female,43,Delhi,Sports,5,3497,Cash,10,15736.5
+520,2024-06-03,1810,Male,25,Hyderabad,Home,3,4886,UPI,5,13925.099999999999
+521,2024-06-04,1245,Male,53,Hyderabad,Home,1,3853,Debit Card,10,3467.7000000000003
+522,2024-06-05,1175,Female,47,Mumbai,Sports,1,4740,UPI,20,3792.0
+523,2024-06-06,1038,Male,40,Chennai,Home,3,2061,UPI,15,5255.55
+524,2024-06-07,1476,Male,59,Mumbai,Beauty,3,520,UPI,5,1482.0
+525,2024-06-08,1681,Male,61,Mumbai,Clothing,3,4923,Credit Card,0,14769.0
+526,2024-06-09,1758,Female,31,Bangalore,Home,1,3188,Debit Card,0,3188.0
+527,2024-06-10,1537,Female,31,Mumbai,Home,5,1964,Debit Card,10,8838.0
+528,2024-06-11,1866,Male,19,Delhi,Sports,3,4286,Credit Card,15,10929.3
+529,2024-06-12,1817,Female,54,Delhi,Beauty,2,4876,Debit Card,0,9752.0
+530,2024-06-13,1920,Male,22,Bangalore,Clothing,3,3277,UPI,10,8847.9
+531,2024-06-14,1407,Male,55,Chennai,Sports,4,2171,Debit Card,20,6947.200000000001
+532,2024-06-15,1524,Male,62,Chennai,Sports,3,1762,Credit Card,10,4757.400000000001
+533,2024-06-16,1827,Male,58,Mumbai,Beauty,1,644,UPI,10,579.6
+534,2024-06-17,1505,Female,64,Mumbai,Clothing,3,344,Credit Card,10,928.8000000000001
+535,2024-06-18,1902,Female,31,Mumbai,Beauty,4,2368,Cash,5,8998.4
+536,2024-06-19,1824,Female,56,Chennai,Clothing,2,1814,UPI,10,3265.2000000000003
+537,2024-06-20,1035,Male,42,Hyderabad,Beauty,5,2898,UPI,10,13041.0
+538,2024-06-21,1684,Male,37,Delhi,Sports,3,1301,Debit Card,5,3707.85
+539,2024-06-22,1019,Male,19,Hyderabad,Sports,4,1333,UPI,5,5065.4
+540,2024-06-23,1320,Female,56,Hyderabad,Electronics,4,2340,Credit Card,20,7488.0
+541,2024-06-24,1775,Male,23,Chennai,Home,2,573,Debit Card,15,974.1
+542,2024-06-25,1511,Female,34,Hyderabad,Beauty,1,2947,Cash,0,2947.0
+543,2024-06-26,1399,Female,42,Bangalore,Electronics,3,2079,Credit Card,0,6237.0
+544,2024-06-27,1653,Female,45,Mumbai,Home,4,4776,Cash,10,17193.600000000002
+545,2024-06-28,1971,Female,19,Bangalore,Beauty,2,778,Cash,20,1244.8000000000002
+546,2024-06-29,1882,Female,52,Delhi,Clothing,5,815,Cash,10,3667.5
+547,2024-06-30,1470,Female,54,Mumbai,Home,4,4586,UPI,0,18344.0
+548,2024-07-01,1142,Male,22,Hyderabad,Sports,2,1491,Credit Card,5,2832.9
+549,2024-07-02,1091,Male,18,Delhi,Electronics,1,2968,Credit Card,15,2522.7999999999997
+550,2024-07-03,1353,Female,57,Mumbai,Home,1,1711,UPI,20,1368.8000000000002
+551,2024-07-04,1833,Female,29,Hyderabad,Home,4,3580,Debit Card,5,13604.0
+552,2024-07-05,1799,Male,53,Bangalore,Sports,4,571,Cash,15,1941.3999999999999
+553,2024-07-06,1726,Female,62,Mumbai,Beauty,3,442,Credit Card,20,1060.8
+554,2024-07-07,1958,Female,40,Hyderabad,Clothing,2,3632,UPI,20,5811.200000000001
+555,2024-07-08,1853,Male,64,Bangalore,Sports,4,1087,Cash,0,4348.0
+556,2024-07-09,1050,Female,48,Delhi,Clothing,3,1981,Debit Card,5,5645.849999999999
+557,2024-07-10,1664,Female,28,Delhi,Beauty,3,922,Debit Card,20,2212.8
+558,2024-07-11,1697,Female,27,Delhi,Home,4,4141,Cash,20,13251.2
+559,2024-07-12,1574,Male,20,Delhi,Clothing,1,3976,Debit Card,15,3379.6
+560,2024-07-13,1189,Male,31,Chennai,Electronics,2,2872,Credit Card,0,5744.0
+561,2024-07-14,1124,Male,33,Mumbai,Electronics,2,3560,Credit Card,10,6408.0
+562,2024-07-15,1149,Female,27,Mumbai,Sports,1,366,Credit Card,0,366.0
+563,2024-07-16,1313,Female,46,Chennai,Beauty,4,4586,Debit Card,10,16509.600000000002
+564,2024-07-17,1569,Male,27,Hyderabad,Sports,2,4916,Credit Card,5,9340.4
+565,2024-07-18,1341,Female,29,Hyderabad,Sports,4,1440,UPI,5,5472.0
+566,2024-07-19,1304,Female,47,Delhi,Sports,4,2614,Credit Card,20,8364.800000000001
+567,2024-07-20,1691,Female,58,Bangalore,Electronics,3,2832,Credit Card,5,8071.2
+568,2024-07-21,1681,Female,18,Hyderabad,Electronics,1,3880,Debit Card,20,3104.0
+569,2024-07-22,1837,Female,22,Bangalore,Sports,4,1487,Credit Card,0,5948.0
+570,2024-07-23,1782,Male,37,Mumbai,Electronics,5,4771,Cash,5,22662.25
+571,2024-07-24,1053,Female,25,Bangalore,Beauty,1,3639,UPI,0,3639.0
+572,2024-07-25,1443,Male,60,Mumbai,Sports,2,848,Debit Card,0,1696.0
+573,2024-07-26,1612,Female,29,Chennai,Electronics,3,4387,UPI,5,12502.949999999999
+574,2024-07-27,1992,Male,18,Chennai,Clothing,2,372,Cash,0,744.0
+575,2024-07-28,1263,Female,37,Delhi,Sports,2,498,Debit Card,5,946.1999999999999
+576,2024-07-29,1052,Male,45,Hyderabad,Sports,1,3501,Debit Card,5,3325.95
+577,2024-07-30,1571,Female,60,Delhi,Beauty,2,2081,Credit Card,5,3953.8999999999996
+578,2024-07-31,1619,Male,54,Mumbai,Home,4,871,UPI,10,3135.6
+579,2024-08-01,1004,Female,64,Delhi,Home,2,1090,Cash,0,2180.0
+580,2024-08-02,1102,Male,54,Bangalore,Beauty,3,1938,Cash,15,4941.9
+581,2024-08-03,1195,Female,29,Mumbai,Beauty,3,2131,Debit Card,5,6073.349999999999
+582,2024-08-04,1773,Male,54,Chennai,Beauty,5,2155,Credit Card,0,10775.0
+583,2024-08-05,1876,Male,61,Hyderabad,Home,3,1474,Debit Card,20,3537.6000000000004
+584,2024-08-06,1991,Female,45,Mumbai,Beauty,2,4040,Debit Card,5,7676.0
+585,2024-08-07,1883,Female,64,Mumbai,Electronics,3,3577,Debit Card,5,10194.449999999999
+586,2024-08-08,1349,Male,32,Bangalore,Sports,1,478,Debit Card,15,406.3
+587,2024-08-09,1046,Female,23,Hyderabad,Sports,3,2544,Cash,10,6868.8
+588,2024-08-10,1866,Male,61,Chennai,Clothing,4,4386,Cash,10,15789.6
+589,2024-08-11,1822,Male,37,Mumbai,Clothing,1,1034,Debit Card,5,982.3
+590,2024-08-12,1935,Male,31,Mumbai,Sports,5,1098,Debit Card,0,5490.0
+591,2024-08-13,1819,Female,19,Bangalore,Electronics,4,1087,Credit Card,20,3478.4
+592,2024-08-14,1655,Male,26,Delhi,Home,2,3095,Debit Card,20,4952.0
+593,2024-08-15,1268,Male,54,Chennai,Home,2,4604,Cash,0,9208.0
+594,2024-08-16,1369,Female,37,Hyderabad,Electronics,2,4888,UPI,5,9287.199999999999
+595,2024-08-17,1635,Female,43,Mumbai,Home,4,3384,Cash,20,10828.800000000001
+596,2024-08-18,1105,Female,46,Mumbai,Beauty,4,3218,Credit Card,10,11584.800000000001
+597,2024-08-19,1669,Female,18,Chennai,Sports,4,1031,Cash,0,4124.0
+598,2024-08-20,1658,Male,52,Delhi,Sports,1,1429,UPI,15,1214.6499999999999
+599,2024-08-21,1656,Male,23,Mumbai,Electronics,1,3746,Debit Card,5,3558.7
+600,2024-08-22,1119,Male,54,Chennai,Home,2,1905,UPI,0,3810.0
+601,2024-08-23,1830,Male,22,Bangalore,Clothing,3,4078,Debit Card,20,9787.2
+602,2024-08-24,1786,Female,50,Delhi,Clothing,2,3045,Debit Card,5,5785.5
+603,2024-08-25,1603,Male,31,Hyderabad,Home,5,3470,Cash,10,15615.0
+604,2024-08-26,1057,Male,29,Mumbai,Clothing,1,4989,Cash,5,4739.55
+605,2024-08-27,1950,Female,59,Chennai,Electronics,4,3233,Cash,5,12285.4
+606,2024-08-28,1345,Male,37,Bangalore,Electronics,1,1515,Credit Card,10,1363.5
+607,2024-08-29,1740,Male,41,Hyderabad,Home,4,624,Cash,10,2246.4
+608,2024-08-30,1473,Male,60,Chennai,Clothing,5,2150,Credit Card,5,10212.5
+609,2024-08-31,1116,Male,51,Chennai,Electronics,5,1790,Cash,10,8055.0
+610,2024-09-01,1829,Male,42,Hyderabad,Electronics,1,1193,Debit Card,0,1193.0
+611,2024-09-02,1790,Male,46,Bangalore,Beauty,4,1690,Credit Card,10,6084.0
+612,2024-09-03,1126,Female,56,Bangalore,Beauty,5,3689,UPI,10,16600.5
+613,2024-09-04,1392,Female,48,Delhi,Electronics,2,4539,Credit Card,5,8624.1
+614,2024-09-05,1907,Male,64,Mumbai,Home,2,4779,Credit Card,0,9558.0
+615,2024-09-06,1640,Male,60,Hyderabad,Sports,4,2563,UPI,15,8714.199999999999
+616,2024-09-07,1057,Female,40,Hyderabad,Sports,1,3732,Credit Card,15,3172.2
+617,2024-09-08,1633,Male,61,Hyderabad,Electronics,5,2671,Debit Card,20,10684.0
+618,2024-09-09,1512,Male,55,Bangalore,Electronics,1,3386,Cash,10,3047.4
+619,2024-09-10,1750,Male,37,Mumbai,Electronics,2,4612,UPI,10,8301.6
+620,2024-09-11,1801,Female,40,Delhi,Home,5,1815,Cash,0,9075.0
+621,2024-09-12,1095,Male,62,Chennai,Beauty,1,3217,Debit Card,15,2734.45
+622,2024-09-13,1637,Female,33,Chennai,Electronics,3,2652,UPI,20,6364.8
+623,2024-09-14,1117,Male,59,Hyderabad,Electronics,4,1467,Cash,0,5868.0
+624,2024-09-15,1559,Female,25,Mumbai,Clothing,4,410,Cash,10,1476.0
+625,2024-09-16,1600,Female,38,Bangalore,Home,3,4627,Debit Card,15,11798.85
+626,2024-09-17,1487,Male,18,Mumbai,Electronics,2,3955,Cash,20,6328.0
+627,2024-09-18,1236,Female,25,Mumbai,Clothing,5,4093,Debit Card,5,19441.75
+628,2024-09-19,1884,Male,46,Bangalore,Sports,4,2055,Credit Card,15,6987.0
+629,2024-09-20,1896,Female,49,Hyderabad,Electronics,3,1877,Debit Card,20,4504.8
+630,2024-09-21,1271,Male,55,Mumbai,Electronics,3,1596,Credit Card,0,4788.0
+631,2024-09-22,1188,Male,22,Chennai,Clothing,2,4074,UPI,5,7740.599999999999
+632,2024-09-23,1998,Female,64,Bangalore,Home,2,2520,Cash,20,4032.0
+633,2024-09-24,1703,Male,39,Delhi,Electronics,1,1272,Debit Card,20,1017.6
+634,2024-09-25,1446,Male,64,Hyderabad,Sports,4,1330,Debit Card,10,4788.0
+635,2024-09-26,1580,Female,51,Bangalore,Electronics,1,2893,Cash,15,2459.0499999999997
+636,2024-09-27,1789,Male,18,Delhi,Sports,3,4292,Cash,10,11588.4
+637,2024-09-28,1860,Male,43,Delhi,Beauty,5,4913,UPI,5,23336.75
+638,2024-09-29,1246,Female,60,Mumbai,Beauty,5,1213,UPI,20,4852.0
+639,2024-09-30,1962,Female,27,Mumbai,Sports,2,2481,Debit Card,10,4465.8
+640,2024-10-01,1075,Male,47,Mumbai,Home,5,3497,UPI,15,14862.25
+641,2024-10-02,1153,Male,35,Bangalore,Electronics,5,1762,Credit Card,5,8369.5
+642,2024-10-03,1655,Female,34,Bangalore,Electronics,5,2678,UPI,0,13390.0
+643,2024-10-04,1434,Female,43,Hyderabad,Beauty,3,3754,UPI,10,10135.800000000001
+644,2024-10-05,1996,Male,25,Mumbai,Sports,5,3853,Debit Card,5,18301.75
+645,2024-10-06,1085,Female,64,Delhi,Electronics,5,1607,Credit Card,0,8035.0
+646,2024-10-07,1696,Male,57,Chennai,Electronics,5,1489,UPI,10,6700.5
+647,2024-10-08,1284,Male,29,Hyderabad,Home,1,987,Credit Card,5,937.65
+648,2024-10-09,1973,Male,44,Bangalore,Clothing,3,4961,Credit Card,5,14138.849999999999
+649,2024-10-10,1219,Male,25,Hyderabad,Beauty,2,1507,Credit Card,10,2712.6
+650,2024-10-11,1068,Male,42,Hyderabad,Beauty,1,2194,Cash,5,2084.2999999999997
+651,2024-10-12,1046,Female,63,Hyderabad,Clothing,4,2111,Cash,20,6755.200000000001
+652,2024-10-13,1093,Female,21,Hyderabad,Electronics,3,3483,Cash,10,9404.1
+653,2024-10-14,1749,Female,50,Chennai,Home,3,4097,Cash,5,11676.449999999999
+654,2024-10-15,1957,Female,18,Mumbai,Home,4,1944,Debit Card,0,7776.0
+655,2024-10-16,1452,Male,36,Delhi,Beauty,4,4268,UPI,0,17072.0
+656,2024-10-17,1203,Male,48,Hyderabad,Home,4,3016,Cash,20,9651.2
+657,2024-10-18,1911,Male,33,Hyderabad,Clothing,2,490,Debit Card,10,882.0
+658,2024-10-19,1217,Male,31,Hyderabad,Electronics,5,1635,UPI,5,7766.25
+659,2024-10-20,1473,Female,22,Mumbai,Clothing,3,3406,Cash,5,9707.1
+660,2024-10-21,1431,Male,58,Bangalore,Sports,5,678,UPI,0,3390.0
+661,2024-10-22,1340,Male,43,Bangalore,Beauty,5,4782,Cash,20,19128.0
+662,2024-10-23,1550,Female,45,Chennai,Home,4,4129,Debit Card,0,16516.0
+663,2024-10-24,1611,Female,19,Bangalore,Sports,2,915,Credit Card,0,1830.0
+664,2024-10-25,1288,Female,23,Hyderabad,Home,1,2630,Credit Card,20,2104.0
+665,2024-10-26,1253,Female,26,Hyderabad,Electronics,2,2054,UPI,10,3697.2000000000003
+666,2024-10-27,1733,Male,50,Hyderabad,Electronics,5,763,Debit Card,5,3624.25
+667,2024-10-28,1356,Male,58,Chennai,Electronics,2,1266,Credit Card,10,2278.8
+668,2024-10-29,1022,Female,42,Hyderabad,Home,4,4567,Cash,15,15527.8
+669,2024-10-30,1761,Male,30,Bangalore,Sports,1,3458,Credit Card,15,2939.2999999999997
+670,2024-10-31,1521,Male,26,Mumbai,Electronics,4,3924,UPI,15,13341.6
+671,2024-11-01,1757,Male,30,Mumbai,Sports,1,989,UPI,20,791.2
+672,2024-11-02,1836,Female,48,Delhi,Home,5,2922,Debit Card,0,14610.0
+673,2024-11-03,1099,Male,58,Bangalore,Sports,1,2512,UPI,10,2260.8
+674,2024-11-04,1801,Female,28,Hyderabad,Home,1,682,Credit Card,5,647.9
+675,2024-11-05,1179,Male,21,Mumbai,Home,1,2556,Credit Card,15,2172.6
+676,2024-11-06,1222,Male,51,Bangalore,Beauty,2,4110,Credit Card,10,7398.0
+677,2024-11-07,1905,Male,55,Mumbai,Home,2,3803,Credit Card,15,6465.099999999999
+678,2024-11-08,1761,Female,63,Hyderabad,Home,5,1712,Debit Card,15,7276.0
+679,2024-11-09,1658,Male,21,Mumbai,Clothing,1,1883,Cash,5,1788.85
+680,2024-11-10,1441,Female,55,Delhi,Electronics,3,671,Cash,20,1610.4
+681,2024-11-11,1607,Female,36,Delhi,Beauty,5,910,Debit Card,0,4550.0
+682,2024-11-12,1768,Female,23,Mumbai,Beauty,1,415,UPI,20,332.0
+683,2024-11-13,1324,Male,51,Bangalore,Beauty,1,746,Cash,10,671.4
+684,2024-11-14,1515,Male,35,Bangalore,Clothing,2,1691,UPI,20,2705.6000000000004
+685,2024-11-15,1015,Male,30,Bangalore,Home,5,3624,Cash,10,16308.0
+686,2024-11-16,1791,Male,58,Mumbai,Electronics,1,1640,UPI,10,1476.0
+687,2024-11-17,1335,Female,40,Bangalore,Sports,1,4810,Debit Card,0,4810.0
+688,2024-11-18,1758,Female,36,Hyderabad,Home,5,3239,Credit Card,5,15385.25
+689,2024-11-19,1257,Female,62,Delhi,Clothing,3,3999,UPI,0,11997.0
+690,2024-11-20,1496,Male,28,Hyderabad,Home,5,1373,Credit Card,20,5492.0
+691,2024-11-21,1987,Female,18,Bangalore,Home,5,3869,UPI,10,17410.5
+692,2024-11-22,1895,Male,41,Hyderabad,Clothing,3,3450,UPI,15,8797.5
+693,2024-11-23,1159,Female,24,Bangalore,Beauty,5,1905,UPI,15,8096.25
+694,2024-11-24,1474,Male,42,Mumbai,Beauty,1,4957,UPI,10,4461.3
+695,2024-11-25,1851,Male,38,Hyderabad,Electronics,5,2594,UPI,0,12970.0
+696,2024-11-26,1663,Female,32,Mumbai,Electronics,3,3962,Credit Card,5,11291.699999999999
+697,2024-11-27,1907,Female,18,Mumbai,Beauty,4,4782,UPI,0,19128.0
+698,2024-11-28,1689,Female,29,Chennai,Sports,5,1283,Credit Card,10,5773.5
+699,2024-11-29,1674,Female,24,Bangalore,Home,2,651,Debit Card,10,1171.8
+700,2024-11-30,1379,Male,32,Delhi,Sports,1,2024,Cash,5,1922.8
+701,2024-12-01,1544,Female,38,Bangalore,Home,1,2251,UPI,20,1800.8000000000002
+702,2024-12-02,1928,Female,36,Delhi,Beauty,2,1579,Cash,20,2526.4
+703,2024-12-03,1956,Female,46,Bangalore,Electronics,2,2207,Credit Card,5,4193.3
+704,2024-12-04,1690,Male,42,Mumbai,Electronics,5,1324,Debit Card,20,5296.0
+705,2024-12-05,1426,Male,50,Hyderabad,Sports,2,845,Debit Card,15,1436.5
+706,2024-12-06,1612,Female,49,Hyderabad,Electronics,4,4474,Debit Card,20,14316.800000000001
+707,2024-12-07,1267,Male,52,Chennai,Beauty,3,2681,Cash,20,6434.400000000001
+708,2024-12-08,1834,Female,61,Delhi,Sports,2,1188,Credit Card,20,1900.8000000000002
+709,2024-12-09,1576,Male,55,Delhi,Home,2,1405,UPI,15,2388.5
+710,2024-12-10,1416,Male,43,Delhi,Electronics,4,2849,UPI,20,9116.800000000001
+711,2024-12-11,1167,Male,28,Mumbai,Clothing,1,2290,Credit Card,15,1946.5
+712,2024-12-12,1841,Male,52,Delhi,Electronics,1,4298,Cash,5,4083.1
+713,2024-12-13,1042,Female,25,Hyderabad,Home,5,4075,UPI,0,20375.0
+714,2024-12-14,1555,Female,63,Mumbai,Sports,4,3112,Credit Card,5,11825.599999999999
+715,2024-12-15,1284,Female,31,Bangalore,Home,3,1220,UPI,0,3660.0
+716,2024-12-16,1396,Male,27,Delhi,Clothing,3,4945,Debit Card,5,14093.25
+717,2024-12-17,1011,Female,19,Delhi,Beauty,4,2361,UPI,0,9444.0
+718,2024-12-18,1606,Female,63,Bangalore,Electronics,3,4787,Cash,0,14361.0
+719,2024-12-19,1301,Female,26,Delhi,Sports,1,3939,Credit Card,10,3545.1
+720,2024-12-20,1897,Male,20,Bangalore,Beauty,3,3465,Cash,0,10395.0
+721,2024-12-21,1252,Male,38,Mumbai,Home,3,4735,Credit Card,0,14205.0
+722,2024-12-22,1498,Male,43,Hyderabad,Sports,4,2944,Debit Card,10,10598.4
+723,2024-12-23,1753,Female,25,Bangalore,Beauty,4,1345,Credit Card,20,4304.0
+724,2024-12-24,1034,Female,19,Chennai,Sports,3,3856,UPI,20,9254.4
+725,2024-12-25,1726,Female,23,Bangalore,Clothing,2,2981,UPI,10,5365.8
+726,2024-12-26,1848,Male,45,Delhi,Clothing,4,3499,Debit Card,15,11896.6
+727,2024-12-27,1089,Male,46,Mumbai,Electronics,5,1238,Credit Card,0,6190.0
+728,2024-12-28,1775,Female,43,Mumbai,Electronics,5,741,Debit Card,0,3705.0
+729,2024-12-29,1604,Male,42,Bangalore,Clothing,1,2850,UPI,10,2565.0
+730,2024-12-30,1921,Male,29,Hyderabad,Sports,3,4525,Cash,10,12217.5
+731,2024-12-31,1969,Male,22,Chennai,Clothing,2,896,Debit Card,15,1523.2
+732,2025-01-01,1601,Male,51,Mumbai,Electronics,1,1805,Cash,20,1444.0
+733,2025-01-02,1417,Female,54,Delhi,Clothing,3,1161,Cash,5,3308.85
+734,2025-01-03,1114,Male,32,Delhi,Clothing,4,2940,Credit Card,20,9408.0
+735,2025-01-04,1616,Male,61,Hyderabad,Sports,5,4031,Debit Card,0,20155.0
+736,2025-01-05,1902,Male,53,Mumbai,Beauty,2,1851,Cash,10,3331.8
+737,2025-01-06,1195,Male,32,Bangalore,Electronics,5,3536,Cash,15,15028.0
+738,2025-01-07,1825,Female,60,Delhi,Sports,4,2036,Credit Card,20,6515.200000000001
+739,2025-01-08,1500,Female,40,Hyderabad,Clothing,3,1749,Credit Card,15,4459.95
+740,2025-01-09,1625,Male,23,Mumbai,Clothing,4,564,UPI,20,1804.8000000000002
+741,2025-01-10,1492,Male,63,Mumbai,Beauty,4,2959,Cash,0,11836.0
+742,2025-01-11,1074,Male,61,Mumbai,Electronics,5,3021,UPI,5,14349.75
+743,2025-01-12,1412,Male,60,Mumbai,Electronics,2,1762,Cash,15,2995.4
+744,2025-01-13,1375,Male,62,Mumbai,Home,4,4552,UPI,15,15476.8
+745,2025-01-14,1419,Male,38,Delhi,Electronics,5,1745,Credit Card,5,8288.75
+746,2025-01-15,1728,Female,40,Hyderabad,Beauty,2,2598,Debit Card,15,4416.599999999999
+747,2025-01-16,1276,Male,60,Mumbai,Home,3,3225,Credit Card,15,8223.75
+748,2025-01-17,1760,Female,33,Chennai,Home,3,1932,UPI,20,4636.8
+749,2025-01-18,1675,Female,64,Chennai,Clothing,1,2674,UPI,20,2139.2000000000003
+750,2025-01-19,1393,Male,32,Hyderabad,Clothing,5,812,Debit Card,5,3857.0
+751,2025-01-20,1868,Female,42,Bangalore,Electronics,2,515,Cash,0,1030.0
+752,2025-01-21,1456,Female,53,Bangalore,Home,4,3631,UPI,15,12345.4
+753,2025-01-22,1919,Female,28,Bangalore,Clothing,3,2472,UPI,0,7416.0
+754,2025-01-23,1191,Female,32,Chennai,Beauty,2,3453,UPI,5,6560.7
+755,2025-01-24,1738,Female,21,Bangalore,Clothing,5,2006,Debit Card,5,9528.5
+756,2025-01-25,1688,Female,38,Delhi,Clothing,1,2406,Credit Card,20,1924.8000000000002
+757,2025-01-26,1098,Male,30,Mumbai,Home,3,1867,UPI,15,4760.849999999999
+758,2025-01-27,1547,Female,39,Chennai,Home,2,2508,Debit Card,10,4514.400000000001
+759,2025-01-28,1977,Female,36,Hyderabad,Sports,2,2631,UPI,5,4998.9
+760,2025-01-29,1998,Female,51,Hyderabad,Beauty,2,2453,Cash,15,4170.099999999999
+761,2025-01-30,1095,Male,31,Mumbai,Home,5,1428,Debit Card,0,7140.0
+762,2025-01-31,1663,Female,21,Chennai,Electronics,5,3810,UPI,20,15240.0
+763,2025-02-01,1662,Male,63,Bangalore,Beauty,5,4623,Debit Card,0,23115.0
+764,2025-02-02,1189,Female,44,Bangalore,Beauty,4,3953,UPI,5,15021.4
+765,2025-02-03,1735,Male,46,Delhi,Home,2,2665,Credit Card,5,5063.5
+766,2025-02-04,1036,Male,64,Delhi,Beauty,3,3221,UPI,0,9663.0
+767,2025-02-05,1779,Female,45,Bangalore,Home,5,4867,Debit Card,5,23118.25
+768,2025-02-06,1368,Female,52,Hyderabad,Clothing,5,1379,Cash,15,5860.75
+769,2025-02-07,1694,Male,25,Hyderabad,Sports,2,3811,Cash,5,7240.9
+770,2025-02-08,1524,Female,33,Delhi,Clothing,5,3041,Cash,20,12164.0
+771,2025-02-09,1278,Male,59,Mumbai,Home,4,3320,UPI,15,11288.0
+772,2025-02-10,1216,Male,53,Bangalore,Home,4,528,Credit Card,10,1900.8
+773,2025-02-11,1866,Male,47,Delhi,Clothing,5,470,UPI,5,2232.5
+774,2025-02-12,1872,Male,35,Delhi,Electronics,2,594,Cash,5,1128.6
+775,2025-02-13,1797,Male,19,Bangalore,Electronics,2,4584,Debit Card,20,7334.400000000001
+776,2025-02-14,1272,Female,30,Bangalore,Electronics,2,725,Cash,20,1160.0
+777,2025-02-15,1880,Male,21,Hyderabad,Home,1,1218,Debit Card,0,1218.0
+778,2025-02-16,1061,Male,43,Mumbai,Beauty,5,3553,Credit Card,0,17765.0
+779,2025-02-17,1595,Female,42,Mumbai,Home,2,798,Debit Card,0,1596.0
+780,2025-02-18,1879,Male,47,Bangalore,Beauty,4,3109,UPI,20,9948.800000000001
+781,2025-02-19,1728,Female,28,Chennai,Clothing,3,1125,UPI,0,3375.0
+782,2025-02-20,1341,Female,24,Delhi,Sports,3,4079,UPI,0,12237.0
+783,2025-02-21,1396,Female,48,Delhi,Beauty,2,2158,Debit Card,10,3884.4
+784,2025-02-22,1698,Male,61,Bangalore,Electronics,3,2418,UPI,0,7254.0
+785,2025-02-23,1018,Male,27,Chennai,Home,3,445,UPI,5,1268.25
+786,2025-02-24,1176,Male,56,Hyderabad,Clothing,1,4865,UPI,20,3892.0
+787,2025-02-25,1611,Female,30,Bangalore,Electronics,4,3877,Credit Card,15,13181.8
+788,2025-02-26,1395,Male,48,Bangalore,Clothing,4,492,Debit Card,10,1771.2
+789,2025-02-27,1444,Female,24,Delhi,Sports,1,4188,Debit Card,20,3350.4
+790,2025-02-28,1232,Male,59,Bangalore,Home,1,351,Cash,20,280.8
+791,2025-03-01,1914,Female,59,Bangalore,Home,3,2710,Debit Card,5,7723.5
+792,2025-03-02,1075,Male,53,Bangalore,Sports,5,2120,Credit Card,0,10600.0
+793,2025-03-03,1264,Male,37,Delhi,Home,3,3264,Debit Card,5,9302.4
+794,2025-03-04,1454,Male,21,Hyderabad,Beauty,1,2821,Credit Card,0,2821.0
+795,2025-03-05,1795,Female,24,Hyderabad,Clothing,4,2169,Credit Card,0,8676.0
+796,2025-03-06,1717,Female,18,Bangalore,Electronics,3,2868,Debit Card,20,6883.200000000001
+797,2025-03-07,1734,Male,61,Delhi,Sports,5,2167,Cash,0,10835.0
+798,2025-03-08,1383,Male,62,Hyderabad,Beauty,3,3038,UPI,10,8202.6
+799,2025-03-09,1563,Female,59,Hyderabad,Electronics,2,3569,UPI,10,6424.2
+800,2025-03-10,1850,Female,64,Hyderabad,Electronics,3,3499,Debit Card,10,9447.300000000001
+801,2025-03-11,1505,Female,30,Delhi,Sports,1,2879,Debit Card,20,2303.2000000000003
+802,2025-03-12,1366,Male,39,Delhi,Beauty,4,4305,Credit Card,5,16359.0
+803,2025-03-13,1143,Female,38,Bangalore,Electronics,4,540,Debit Card,15,1836.0
+804,2025-03-14,1884,Male,39,Mumbai,Electronics,1,3740,Credit Card,0,3740.0
+805,2025-03-15,1068,Female,45,Hyderabad,Beauty,2,4931,Cash,15,8382.699999999999
+806,2025-03-16,1098,Male,26,Mumbai,Home,1,1707,Debit Card,5,1621.6499999999999
+807,2025-03-17,1395,Female,43,Delhi,Electronics,3,3802,UPI,5,10835.699999999999
+808,2025-03-18,1024,Female,26,Delhi,Clothing,1,4338,UPI,20,3470.4
+809,2025-03-19,1947,Female,32,Delhi,Beauty,1,382,Debit Card,10,343.8
+810,2025-03-20,1890,Female,27,Mumbai,Electronics,2,4068,Credit Card,10,7322.400000000001
+811,2025-03-21,1468,Female,41,Delhi,Sports,3,1250,UPI,5,3562.5
+812,2025-03-22,1483,Male,59,Bangalore,Clothing,5,910,Credit Card,20,3640.0
+813,2025-03-23,1564,Female,25,Delhi,Electronics,5,4969,Debit Card,20,19876.0
+814,2025-03-24,1150,Female,41,Chennai,Clothing,4,3905,Debit Card,0,15620.0
+815,2025-03-25,1143,Female,33,Mumbai,Clothing,1,4854,UPI,10,4368.6
+816,2025-03-26,1568,Male,43,Chennai,Home,4,3583,Debit Card,5,13615.4
+817,2025-03-27,1038,Female,44,Delhi,Clothing,2,2473,Cash,15,4204.099999999999
+818,2025-03-28,1108,Male,54,Bangalore,Home,5,3784,Cash,10,17028.0
+819,2025-03-29,1692,Female,21,Hyderabad,Beauty,1,1822,UPI,0,1822.0
+820,2025-03-30,1041,Female,41,Delhi,Home,2,2901,Cash,20,4641.6
+821,2025-03-31,1185,Male,36,Bangalore,Sports,2,2957,Credit Card,5,5618.3
+822,2025-04-01,1934,Female,53,Mumbai,Electronics,1,2459,UPI,10,2213.1
+823,2025-04-02,1397,Male,56,Chennai,Beauty,2,2749,UPI,15,4673.3
+824,2025-04-03,1222,Male,27,Chennai,Beauty,1,4130,Credit Card,0,4130.0
+825,2025-04-04,1633,Female,42,Chennai,Sports,1,421,Cash,0,421.0
+826,2025-04-05,1132,Male,35,Mumbai,Home,3,4668,Cash,10,12603.6
+827,2025-04-06,1162,Female,36,Bangalore,Electronics,4,1617,Cash,15,5497.8
+828,2025-04-07,1214,Female,53,Mumbai,Home,2,4793,UPI,0,9586.0
+829,2025-04-08,1732,Male,27,Chennai,Clothing,2,2818,UPI,5,5354.2
+830,2025-04-09,1234,Male,50,Delhi,Home,3,1530,Cash,0,4590.0
+831,2025-04-10,1842,Male,22,Hyderabad,Beauty,3,1433,Debit Card,15,3654.15
+832,2025-04-11,1657,Male,64,Mumbai,Electronics,3,1601,Cash,20,3842.4
+833,2025-04-12,1750,Female,52,Mumbai,Home,5,4334,Credit Card,20,17336.0
+834,2025-04-13,1587,Female,61,Bangalore,Electronics,5,2210,UPI,10,9945.0
+835,2025-04-14,1008,Male,51,Bangalore,Electronics,5,1805,Credit Card,15,7671.25
+836,2025-04-15,1073,Female,50,Mumbai,Clothing,1,3485,Credit Card,0,3485.0
+837,2025-04-16,1953,Female,38,Chennai,Clothing,2,2216,UPI,0,4432.0
+838,2025-04-17,1491,Female,34,Hyderabad,Beauty,4,3848,Debit Card,20,12313.6
+839,2025-04-18,1912,Female,39,Bangalore,Sports,1,3057,Cash,20,2445.6
+840,2025-04-19,1252,Male,54,Chennai,Electronics,2,2256,Credit Card,5,4286.4
+841,2025-04-20,1229,Male,32,Delhi,Sports,2,478,UPI,20,764.8000000000001
+842,2025-04-21,1518,Female,52,Bangalore,Beauty,3,1196,Credit Card,5,3408.6
+843,2025-04-22,1173,Male,45,Chennai,Electronics,3,1851,Cash,0,5553.0
+844,2025-04-23,1652,Male,24,Chennai,Electronics,1,791,Debit Card,5,751.4499999999999
+845,2025-04-24,1167,Male,49,Hyderabad,Sports,3,360,Debit Card,5,1026.0
+846,2025-04-25,1169,Female,28,Hyderabad,Home,2,1377,Debit Card,10,2478.6
+847,2025-04-26,1392,Female,27,Delhi,Clothing,3,3195,UPI,20,7668.0
+848,2025-04-27,1945,Female,26,Chennai,Home,5,4460,UPI,5,21185.0
+849,2025-04-28,1794,Male,31,Chennai,Sports,3,3983,Debit Card,0,11949.0
+850,2025-04-29,1633,Female,30,Hyderabad,Clothing,2,885,Cash,15,1504.5
+851,2025-04-30,1193,Female,42,Bangalore,Home,1,4260,Cash,5,4047.0
+852,2025-05-01,1516,Male,19,Bangalore,Clothing,4,4070,UPI,20,13024.0
+853,2025-05-02,1028,Female,52,Mumbai,Electronics,3,834,Debit Card,10,2251.8
+854,2025-05-03,1164,Female,24,Hyderabad,Home,2,3762,Cash,0,7524.0
+855,2025-05-04,1421,Male,38,Mumbai,Clothing,4,4311,Cash,10,15519.6
+856,2025-05-05,1338,Male,35,Hyderabad,Clothing,4,3698,Cash,15,12573.199999999999
+857,2025-05-06,1647,Male,20,Delhi,Clothing,5,2455,UPI,5,11661.25
+858,2025-05-07,1495,Female,59,Chennai,Home,4,1304,Debit Card,5,4955.2
+859,2025-05-08,1364,Female,56,Delhi,Beauty,2,2799,Credit Card,20,4478.400000000001
+860,2025-05-09,1832,Female,58,Hyderabad,Home,2,626,Debit Card,5,1189.3999999999999
+861,2025-05-10,1341,Male,28,Chennai,Sports,3,3006,Debit Card,0,9018.0
+862,2025-05-11,1499,Male,56,Bangalore,Home,3,301,UPI,15,767.55
+863,2025-05-12,1656,Female,41,Bangalore,Clothing,3,1333,Cash,10,3599.1
+864,2025-05-13,1510,Female,63,Mumbai,Electronics,4,2781,Cash,15,9455.4
+865,2025-05-14,1326,Male,36,Hyderabad,Home,4,424,UPI,5,1611.1999999999998
+866,2025-05-15,1216,Male,21,Hyderabad,Home,5,1404,UPI,10,6318.0
+867,2025-05-16,1300,Male,43,Bangalore,Clothing,3,2999,UPI,20,7197.6
+868,2025-05-17,1131,Male,55,Delhi,Electronics,1,2161,UPI,15,1836.85
+869,2025-05-18,1803,Female,59,Chennai,Electronics,5,3220,UPI,10,14490.0
+870,2025-05-19,1069,Male,49,Delhi,Sports,1,428,Credit Card,10,385.2
+871,2025-05-20,1251,Female,56,Delhi,Home,4,737,Debit Card,10,2653.2000000000003
+872,2025-05-21,1414,Female,62,Bangalore,Electronics,5,2848,Debit Card,0,14240.0
+873,2025-05-22,1786,Female,63,Bangalore,Electronics,5,3429,Debit Card,15,14573.25
+874,2025-05-23,1444,Male,53,Bangalore,Beauty,2,1521,Cash,10,2737.8
+875,2025-05-24,1875,Male,57,Mumbai,Beauty,4,1201,Credit Card,15,4083.4
+876,2025-05-25,1181,Male,54,Delhi,Electronics,4,3468,Debit Card,10,12484.800000000001
+877,2025-05-26,1166,Male,50,Hyderabad,Sports,5,4786,Cash,20,19144.0
+878,2025-05-27,1090,Female,53,Chennai,Electronics,4,4218,Credit Card,20,13497.6
+879,2025-05-28,1713,Male,20,Mumbai,Clothing,5,1367,Credit Card,20,5468.0
+880,2025-05-29,1857,Male,26,Hyderabad,Home,2,326,Cash,5,619.4
+881,2025-05-30,1530,Female,25,Delhi,Sports,5,847,Credit Card,10,3811.5
+882,2025-05-31,1038,Male,50,Bangalore,Clothing,4,2968,Cash,5,11278.4
+883,2025-06-01,1125,Female,23,Delhi,Sports,4,866,Debit Card,15,2944.4
+884,2025-06-02,1450,Female,58,Chennai,Clothing,5,1003,Cash,5,4764.25
+885,2025-06-03,1172,Female,56,Mumbai,Home,5,4580,Credit Card,15,19465.0
+886,2025-06-04,1652,Female,21,Mumbai,Home,5,3440,Debit Card,15,14620.0
+887,2025-06-05,1753,Female,30,Chennai,Beauty,3,1890,Debit Card,15,4819.5
+888,2025-06-06,1219,Female,19,Hyderabad,Clothing,4,4994,UPI,5,18977.2
+889,2025-06-07,1637,Female,22,Hyderabad,Beauty,4,1105,UPI,10,3978.0
+890,2025-06-08,1057,Female,61,Mumbai,Clothing,3,4091,Credit Card,5,11659.35
+891,2025-06-09,1659,Male,44,Mumbai,Beauty,5,1657,Cash,10,7456.5
+892,2025-06-10,1475,Male,49,Bangalore,Home,2,3525,Cash,10,6345.0
+893,2025-06-11,1455,Male,38,Hyderabad,Sports,5,3918,Credit Card,15,16651.5
+894,2025-06-12,1828,Male,25,Chennai,Beauty,5,2426,Debit Card,5,11523.5
+895,2025-06-13,1894,Female,55,Hyderabad,Clothing,3,2760,Credit Card,10,7452.0
+896,2025-06-14,1360,Male,25,Bangalore,Clothing,4,845,Credit Card,20,2704.0
+897,2025-06-15,1934,Female,20,Mumbai,Home,5,3028,Debit Card,10,13626.0
+898,2025-06-16,1000,Male,61,Mumbai,Clothing,4,4034,Cash,20,12908.800000000001
+899,2025-06-17,1386,Male,20,Bangalore,Electronics,1,2862,Credit Card,5,2718.9
+900,2025-06-18,1972,Male,39,Chennai,Sports,4,2379,Cash,5,9040.199999999999
+901,2025-06-19,1347,Female,23,Mumbai,Beauty,2,2941,Credit Card,5,5587.9
+902,2025-06-20,1189,Male,19,Delhi,Sports,2,3414,Debit Card,10,6145.2
+903,2025-06-21,1504,Female,40,Mumbai,Home,5,2226,Debit Card,0,11130.0
+904,2025-06-22,1190,Female,61,Delhi,Beauty,4,916,UPI,10,3297.6
+905,2025-06-23,1507,Male,19,Bangalore,Beauty,5,3944,Debit Card,10,17748.0
+906,2025-06-24,1368,Male,55,Bangalore,Electronics,3,1503,UPI,15,3832.65
+907,2025-06-25,1408,Male,34,Mumbai,Home,2,2059,Credit Card,15,3500.2999999999997
+908,2025-06-26,1823,Female,52,Hyderabad,Clothing,5,2865,Cash,10,12892.5
+909,2025-06-27,1928,Male,51,Delhi,Electronics,3,3474,Debit Card,20,8337.6
+910,2025-06-28,1933,Female,40,Chennai,Electronics,5,3381,Debit Card,15,14369.25
+911,2025-06-29,1116,Female,47,Mumbai,Sports,4,2930,Debit Card,10,10548.0
+912,2025-06-30,1133,Male,25,Chennai,Sports,4,3461,Credit Card,0,13844.0
+913,2025-07-01,1057,Male,39,Mumbai,Sports,4,4621,UPI,20,14787.2
+914,2025-07-02,1555,Female,61,Hyderabad,Electronics,4,969,Credit Card,5,3682.2
+915,2025-07-03,1684,Female,53,Hyderabad,Clothing,1,3468,Cash,10,3121.2000000000003
+916,2025-07-04,1671,Female,22,Hyderabad,Beauty,3,2421,Credit Card,10,6536.7
+917,2025-07-05,1172,Male,30,Hyderabad,Sports,3,4378,Cash,20,10507.2
+918,2025-07-06,1828,Female,46,Bangalore,Clothing,4,4451,Debit Card,15,15133.4
+919,2025-07-07,1814,Male,48,Bangalore,Home,1,1019,Cash,15,866.15
+920,2025-07-08,1148,Female,64,Delhi,Sports,4,2900,Cash,15,9860.0
+921,2025-07-09,1079,Female,33,Chennai,Beauty,1,3898,UPI,5,3703.1
+922,2025-07-10,1885,Male,59,Mumbai,Home,4,4969,Cash,20,15900.800000000001
+923,2025-07-11,1212,Female,47,Mumbai,Home,2,966,Cash,20,1545.6000000000001
+924,2025-07-12,1202,Male,33,Bangalore,Beauty,2,583,Credit Card,15,991.1
+925,2025-07-13,1763,Male,29,Mumbai,Sports,5,4203,Debit Card,15,17862.75
+926,2025-07-14,1228,Female,34,Bangalore,Electronics,4,3865,Credit Card,0,15460.0
+927,2025-07-15,1675,Male,33,Delhi,Beauty,3,2534,Credit Card,0,7602.0
+928,2025-07-16,1226,Male,29,Chennai,Beauty,5,4893,Debit Card,10,22018.5
+929,2025-07-17,1658,Female,25,Delhi,Beauty,2,1765,Debit Card,10,3177.0
+930,2025-07-18,1531,Male,37,Hyderabad,Home,4,429,Cash,20,1372.8000000000002
+931,2025-07-19,1440,Male,20,Hyderabad,Clothing,5,2360,Cash,20,9440.0
+932,2025-07-20,1401,Male,33,Hyderabad,Electronics,4,3972,UPI,5,15093.599999999999
+933,2025-07-21,1046,Female,47,Delhi,Sports,2,2794,Credit Card,5,5308.599999999999
+934,2025-07-22,1232,Male,62,Mumbai,Sports,5,1292,Debit Card,0,6460.0
+935,2025-07-23,1304,Female,40,Chennai,Clothing,2,2421,Cash,10,4357.8
+936,2025-07-24,1525,Female,45,Hyderabad,Beauty,1,2884,Debit Card,0,2884.0
+937,2025-07-25,1142,Male,57,Hyderabad,Electronics,2,4496,Cash,0,8992.0
+938,2025-07-26,1414,Male,22,Hyderabad,Sports,4,2523,UPI,10,9082.800000000001
+939,2025-07-27,1512,Male,37,Chennai,Sports,3,4822,UPI,5,13742.699999999999
+940,2025-07-28,1372,Female,57,Hyderabad,Beauty,2,3488,Debit Card,10,6278.400000000001
+941,2025-07-29,1565,Male,61,Chennai,Clothing,3,3537,UPI,15,9019.35
+942,2025-07-30,1885,Male,18,Hyderabad,Electronics,1,4436,Debit Card,15,3770.6
+943,2025-07-31,1258,Male,47,Delhi,Clothing,5,4824,Cash,15,20502.0
+944,2025-08-01,1655,Male,38,Delhi,Clothing,5,643,Credit Card,20,2572.0
+945,2025-08-02,1470,Male,37,Chennai,Electronics,3,4761,UPI,5,13568.849999999999
+946,2025-08-03,1952,Female,23,Delhi,Electronics,5,2576,Cash,5,12236.0
+947,2025-08-04,1970,Female,39,Chennai,Sports,2,3501,Credit Card,20,5601.6
+948,2025-08-05,1011,Male,35,Delhi,Sports,3,1188,Credit Card,0,3564.0
+949,2025-08-06,1329,Male,25,Delhi,Electronics,4,2343,Credit Card,15,7966.2
+950,2025-08-07,1735,Male,56,Chennai,Home,2,1641,Cash,15,2789.7
+951,2025-08-08,1783,Male,49,Mumbai,Sports,2,4020,Cash,0,8040.0
+952,2025-08-09,1967,Female,50,Delhi,Home,2,3183,Debit Card,10,5729.400000000001
+953,2025-08-10,1357,Male,33,Hyderabad,Electronics,4,4512,Credit Card,10,16243.2
+954,2025-08-11,1971,Female,29,Mumbai,Sports,1,2715,Credit Card,5,2579.25
+955,2025-08-12,1407,Female,55,Chennai,Clothing,5,1417,Credit Card,20,5668.0
+956,2025-08-13,1667,Male,51,Mumbai,Electronics,3,4563,Debit Card,5,13004.55
+957,2025-08-14,1372,Female,31,Bangalore,Beauty,1,3301,Credit Card,10,2970.9
+958,2025-08-15,1007,Female,53,Bangalore,Home,3,2038,Cash,0,6114.0
+959,2025-08-16,1121,Female,50,Delhi,Electronics,5,1664,Credit Card,5,7904.0
+960,2025-08-17,1347,Female,40,Delhi,Electronics,4,3008,UPI,15,10227.199999999999
+961,2025-08-18,1675,Male,62,Hyderabad,Sports,2,1224,Cash,15,2080.7999999999997
+962,2025-08-19,1089,Male,19,Mumbai,Sports,2,451,Debit Card,0,902.0
+963,2025-08-20,1647,Female,58,Bangalore,Sports,4,885,Credit Card,10,3186.0
+964,2025-08-21,1697,Male,38,Delhi,Beauty,1,1212,UPI,15,1030.2
+965,2025-08-22,1315,Male,19,Mumbai,Sports,1,2621,Debit Card,15,2227.85
+966,2025-08-23,1177,Male,44,Delhi,Electronics,3,795,Debit Card,20,1908.0
+967,2025-08-24,1539,Male,26,Delhi,Sports,4,4095,Cash,5,15561.0
+968,2025-08-25,1731,Male,18,Bangalore,Clothing,1,2448,Debit Card,10,2203.2000000000003
+969,2025-08-26,1868,Female,28,Bangalore,Sports,4,856,Debit Card,5,3252.7999999999997
+970,2025-08-27,1040,Male,20,Delhi,Beauty,5,1852,Debit Card,10,8334.0
+971,2025-08-28,1739,Male,40,Chennai,Clothing,2,2420,Debit Card,15,4114.0
+972,2025-08-29,1703,Male,43,Delhi,Electronics,2,3385,Credit Card,20,5416.0
+973,2025-08-30,1922,Male,21,Delhi,Electronics,2,3804,Credit Card,5,7227.599999999999
+974,2025-08-31,1501,Female,35,Hyderabad,Home,4,456,Credit Card,15,1550.3999999999999
+975,2025-09-01,1958,Female,23,Hyderabad,Clothing,4,1034,Credit Card,10,3722.4
+976,2025-09-02,1144,Female,52,Hyderabad,Home,3,4954,UPI,5,14118.9
+977,2025-09-03,1200,Female,39,Chennai,Clothing,2,3576,Credit Card,5,6794.4
+978,2025-09-04,1928,Male,60,Chennai,Clothing,3,454,Debit Card,15,1157.7
+979,2025-09-05,1723,Female,32,Delhi,Beauty,2,1296,Credit Card,5,2462.4
+980,2025-09-06,1460,Male,39,Hyderabad,Home,3,2594,Credit Card,20,6225.6
+981,2025-09-07,1731,Male,54,Chennai,Beauty,3,4926,Cash,20,11822.400000000001
+982,2025-09-08,1751,Male,59,Bangalore,Clothing,5,3205,Debit Card,15,13621.25
+983,2025-09-09,1924,Male,29,Delhi,Electronics,3,1477,Credit Card,10,3987.9
+984,2025-09-10,1908,Male,64,Mumbai,Clothing,4,453,Credit Card,15,1540.2
+985,2025-09-11,1557,Female,59,Delhi,Beauty,3,4487,Credit Card,20,10768.800000000001
+986,2025-09-12,1546,Female,55,Mumbai,Home,2,2016,UPI,0,4032.0
+987,2025-09-13,1252,Female,35,Hyderabad,Home,3,3502,Credit Card,0,10506.0
+988,2025-09-14,1389,Female,62,Mumbai,Beauty,1,3157,Cash,5,2999.1499999999996
+989,2025-09-15,1593,Male,52,Hyderabad,Home,2,1086,Debit Card,5,2063.4
+990,2025-09-16,1882,Female,47,Bangalore,Sports,1,4668,Debit Card,0,4668.0
+991,2025-09-17,1255,Male,41,Mumbai,Electronics,2,4572,Credit Card,20,7315.200000000001
+992,2025-09-18,1708,Female,59,Delhi,Electronics,4,4067,Credit Card,5,15454.599999999999
+993,2025-09-19,1814,Male,47,Hyderabad,Electronics,4,3178,Credit Card,15,10805.199999999999
+994,2025-09-20,1920,Male,31,Delhi,Home,4,942,Debit Card,15,3202.7999999999997
+995,2025-09-21,1449,Female,23,Chennai,Home,1,4962,Debit Card,20,3969.6000000000004
+996,2025-09-22,1009,Male,20,Hyderabad,Clothing,5,965,UPI,5,4583.75
+997,2025-09-23,1823,Male,33,Mumbai,Clothing,2,3726,Cash,15,6334.2
+998,2025-09-24,1797,Female,24,Hyderabad,Electronics,4,4083,UPI,5,15515.4
+999,2025-09-25,1241,Male,31,Delhi,Sports,2,4001,Cash,5,7601.9
+1000,2025-09-26,1250,Female,26,Bangalore,Clothing,1,1369,UPI,15,1163.6499999999999
